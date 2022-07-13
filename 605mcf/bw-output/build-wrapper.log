@@ -1,0 +1,2074 @@
+Tue Jul 12 12:44:56 2022: build-wrapper, version 6.30 (linux-x86)
+Tue Jul 12 12:44:56 2022: System name: Linux Nodename: burdock.ittc.ku.edu Release: 5.4.0-48-generic Version: #52-Ubuntu SMP Thu Sep 10 10:58:49 UTC 2020 Machine: x86_64
+Tue Jul 12 12:44:56 2022: socket path: /tmp/build-wrapper-socket.Cx0rUw
+Tue Jul 12 12:44:56 2022: dynamic library found: /home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-i686.so
+Tue Jul 12 12:44:56 2022: dynamic library found: /home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-x86_64.so
+Tue Jul 12 12:44:56 2022: dynamic library found: /home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-haswell.so
+Tue Jul 12 12:44:56 2022: cwd: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:56 2022: command executed as: <build-wrapper-linux-x86-64 --out-dir bw-output>
+Tue Jul 12 12:44:56 2022: out-dir absolute path: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf/bw-output>
+Tue Jul 12 12:44:56 2022: command line received: <./compiler_605.sh>
+Tue Jul 12 12:44:56 2022: env 0: <SHELL=/bin/bash>
+Tue Jul 12 12:44:56 2022: env 1: <SESSION_MANAGER=local/burdock.ittc.ku.edu:@/tmp/.ICE-unix/2229232,unix/burdock.ittc.ku.edu:/tmp/.ICE-unix/2229232>
+Tue Jul 12 12:44:56 2022: env 2: <QT_ACCESSIBILITY=1>
+Tue Jul 12 12:44:56 2022: env 3: <COLORTERM=truecolor>
+Tue Jul 12 12:44:56 2022: env 4: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Tue Jul 12 12:44:56 2022: env 5: <XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session3>
+Tue Jul 12 12:44:56 2022: env 6: <XDG_MENU_PREFIX=gnome->
+Tue Jul 12 12:44:56 2022: env 7: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue Jul 12 12:44:56 2022: env 8: <LANGUAGE=en_US>
+Tue Jul 12 12:44:56 2022: env 9: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Tue Jul 12 12:44:56 2022: env 10: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Tue Jul 12 12:44:56 2022: env 11: <SSH_AUTH_SOCK=/tmp/ssh-yU2igr10WOt3/agent.2229105>
+Tue Jul 12 12:44:56 2022: env 12: <GRADLE_HOME=/home/a967a038/.sdkman/candidates/gradle/current>
+Tue Jul 12 12:44:56 2022: env 13: <SDKMAN_CANDIDATES_DIR=/home/a967a038/.sdkman/candidates>
+Tue Jul 12 12:44:56 2022: env 14: <XMODIFIERS=@im=ibus>
+Tue Jul 12 12:44:56 2022: env 15: <DESKTOP_SESSION=ubuntu>
+Tue Jul 12 12:44:56 2022: env 16: <SSH_AGENT_PID=2229184>
+Tue Jul 12 12:44:56 2022: env 17: <GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:appmenu-gtk-module>
+Tue Jul 12 12:44:56 2022: env 18: <DBUS_STARTER_BUS_TYPE=session>
+Tue Jul 12 12:44:56 2022: env 19: <PWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:56 2022: env 20: <XDG_SESSION_DESKTOP=ubuntu>
+Tue Jul 12 12:44:56 2022: env 21: <LOGNAME=a967a038>
+Tue Jul 12 12:44:56 2022: env 22: <XDG_SESSION_TYPE=x11>
+Tue Jul 12 12:44:56 2022: env 23: <MANPATH=/usr/man:/usr/share/man:/usr/local/man:/usr/man/preformat:/usr/system/man:/usr/X11R6/man>
+Tue Jul 12 12:44:56 2022: env 24: <GPG_AGENT_INFO=/run/user/100576833/gnupg/S.gpg-agent:0:1>
+Tue Jul 12 12:44:56 2022: env 25: <PRINTER=duplex>
+Tue Jul 12 12:44:56 2022: env 26: <XAUTHORITY=/home/a967a038/.Xauthority>
+Tue Jul 12 12:44:56 2022: env 27: <XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/a967a038>
+Tue Jul 12 12:44:56 2022: env 28: <GDM_LANG=en_US>
+Tue Jul 12 12:44:56 2022: env 29: <HOME=/home/a967a038>
+Tue Jul 12 12:44:56 2022: env 30: <IM_CONFIG_PHASE=1>
+Tue Jul 12 12:44:56 2022: env 31: <LANG=en_US.UTF-8>
+Tue Jul 12 12:44:56 2022: env 32: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Tue Jul 12 12:44:56 2022: env 33: <VTE_VERSION=6003>
+Tue Jul 12 12:44:56 2022: env 34: <SDKMAN_VERSION=5.13.1>
+Tue Jul 12 12:44:56 2022: env 35: <XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0>
+Tue Jul 12 12:44:56 2022: env 36: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/042ea370_28b4_4c9a_8aee_872ad7d6f722>
+Tue Jul 12 12:44:56 2022: env 37: <INVOCATION_ID=30383603d0214532aac85ee4e2afd5b4>
+Tue Jul 12 12:44:56 2022: env 38: <MANAGERPID=2227683>
+Tue Jul 12 12:44:56 2022: env 39: <XDG_SESSION_CLASS=user>
+Tue Jul 12 12:44:56 2022: env 40: <TERM=xterm-256color>
+Tue Jul 12 12:44:56 2022: env 41: <HOST=burdock.ittc.ku.edu>
+Tue Jul 12 12:44:56 2022: env 42: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Tue Jul 12 12:44:56 2022: env 43: <USER=a967a038>
+Tue Jul 12 12:44:56 2022: env 44: <GNOME_TERMINAL_SERVICE=:1.150>
+Tue Jul 12 12:44:56 2022: env 45: <WWW_HOME=http://www.ittc.ku.edu/>
+Tue Jul 12 12:44:56 2022: env 46: <SDKMAN_DIR=/home/a967a038/.sdkman>
+Tue Jul 12 12:44:56 2022: env 47: <DISPLAY=:0>
+Tue Jul 12 12:44:56 2022: env 48: <SHLVL=1>
+Tue Jul 12 12:44:56 2022: env 49: <QT_IM_MODULE=ibus>
+Tue Jul 12 12:44:56 2022: env 50: <SDKMAN_CANDIDATES_API=https://api.sdkman.io/2>
+Tue Jul 12 12:44:56 2022: env 51: <UBUNTU_MENUPROXY=1>
+Tue Jul 12 12:44:56 2022: env 52: <DBUS_STARTER_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:56 2022: env 53: <XDG_RUNTIME_DIR=/run/user/100576833>
+Tue Jul 12 12:44:56 2022: env 54: <SONAR_TOKEN=61ff7f3f93564ba1dd37b5c22775799294ab785d>
+Tue Jul 12 12:44:56 2022: env 55: <JOURNAL_STREAM=9:11764889>
+Tue Jul 12 12:44:56 2022: env 56: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Tue Jul 12 12:44:56 2022: env 57: <PATH=~/Documents/pycharm-community-2022.1.1/bin/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/support/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/:~/Downloads/RESEARCH/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin:~/Downloads/RESEARCH/build-wrapper-linux-x86:/home/a967a038/.sdkman/candidates/gradle/current/bin:/home/a967a038/.cargo/bin:/usr/system/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin/X11:/usr/X11R6/bin:/sbin:/usr/sbin:/usr/local/sbin:/tools/matlab/bin>
+Tue Jul 12 12:44:56 2022: env 58: <GDMSESSION=ubuntu>
+Tue Jul 12 12:44:56 2022: env 59: <DOMAINNAME=>
+Tue Jul 12 12:44:56 2022: env 60: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:56 2022: env 61: <SDKMAN_PLATFORM=linuxx64>
+Tue Jul 12 12:44:56 2022: env 62: <MAIL=/var/spool/mail/a967a038>
+Tue Jul 12 12:44:56 2022: env 63: <OLDPWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree>
+Tue Jul 12 12:44:56 2022: env 64: <_=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue Jul 12 12:44:56 2022: executing: <./compiler_605.sh>
+Tue Jul 12 12:44:56 2022: initializing json file
+Tue Jul 12 12:44:56 2022: process created with pid: 2241893
+Tue Jul 12 12:44:56 2022: parent pid: 2241892
+Tue Jul 12 12:44:56 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:56 2022: executable: </home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue Jul 12 12:44:56 2022: argv[0]: <build-wrapper-linux-x86-64>
+Tue Jul 12 12:44:56 2022: argv[1]: <-c>
+Tue Jul 12 12:44:56 2022: argv[2]: <>
+Tue Jul 12 12:44:56 2022: argv[3]: <./compiler_605.sh>
+Tue Jul 12 12:44:56 2022: skipping process with pid: 2241893
+Tue Jul 12 12:44:56 2022: process created with pid: 2241894
+Tue Jul 12 12:44:56 2022: parent pid: 2241893
+Tue Jul 12 12:44:56 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:56 2022: executable: </usr/bin/dash>
+Tue Jul 12 12:44:56 2022: argv[0]: </bin/sh>
+Tue Jul 12 12:44:56 2022: argv[1]: <./compiler_605.sh>
+Tue Jul 12 12:44:56 2022: skipping process with pid: 2241894
+Tue Jul 12 12:44:56 2022: process created with pid: 2241895
+Tue Jul 12 12:44:56 2022: parent pid: 2241894
+Tue Jul 12 12:44:56 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:56 2022: executable: </usr/bin/x86_64-linux-gnu-gcc-9>
+Tue Jul 12 12:44:56 2022: argv[0]: </usr/bin/gcc>
+Tue Jul 12 12:44:56 2022: argv[1]: <-std=c99>
+Tue Jul 12 12:44:56 2022: argv[2]: <-m64>
+Tue Jul 12 12:44:56 2022: argv[3]: <-c>
+Tue Jul 12 12:44:56 2022: argv[4]: <-o>
+Tue Jul 12 12:44:56 2022: argv[5]: <mcf.o>
+Tue Jul 12 12:44:56 2022: argv[6]: <-DSPEC>
+Tue Jul 12 12:44:56 2022: argv[7]: <-DNDEBUG>
+Tue Jul 12 12:44:56 2022: argv[8]: <-Ispec_qsort>
+Tue Jul 12 12:44:56 2022: argv[9]: <-DSPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:56 2022: argv[10]: <-g>
+Tue Jul 12 12:44:56 2022: argv[11]: <-fopenmp>
+Tue Jul 12 12:44:56 2022: argv[12]: <-DSPEC_OPENMP>
+Tue Jul 12 12:44:56 2022: argv[13]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:56 2022: argv[14]: <-fgnu89-inline>
+Tue Jul 12 12:44:56 2022: argv[15]: <-DSPEC_LP64>
+Tue Jul 12 12:44:56 2022: argv[16]: <mcf.c>
+Tue Jul 12 12:44:56 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.Cx0rUw>
+Tue Jul 12 12:44:56 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Tue Jul 12 12:44:56 2022: envp[2]: <SDKMAN_VERSION=5.13.1>
+Tue Jul 12 12:44:56 2022: envp[3]: <MAIL=/var/spool/mail/a967a038>
+Tue Jul 12 12:44:56 2022: envp[4]: <LANGUAGE=en_US>
+Tue Jul 12 12:44:56 2022: envp[5]: <USER=a967a038>
+Tue Jul 12 12:44:56 2022: envp[6]: <SSH_AGENT_PID=2229184>
+Tue Jul 12 12:44:56 2022: envp[7]: <XDG_SESSION_TYPE=x11>
+Tue Jul 12 12:44:56 2022: envp[8]: <SHLVL=1>
+Tue Jul 12 12:44:56 2022: envp[9]: <HOME=/home/a967a038>
+Tue Jul 12 12:44:56 2022: envp[10]: <OLDPWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree>
+Tue Jul 12 12:44:56 2022: envp[11]: <DESKTOP_SESSION=ubuntu>
+Tue Jul 12 12:44:56 2022: envp[12]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Tue Jul 12 12:44:56 2022: envp[13]: <GRADLE_HOME=/home/a967a038/.sdkman/candidates/gradle/current>
+Tue Jul 12 12:44:56 2022: envp[14]: <GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:appmenu-gtk-module>
+Tue Jul 12 12:44:56 2022: envp[15]: <XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0>
+Tue Jul 12 12:44:56 2022: envp[16]: <MANAGERPID=2227683>
+Tue Jul 12 12:44:56 2022: envp[17]: <DBUS_STARTER_BUS_TYPE=session>
+Tue Jul 12 12:44:56 2022: envp[18]: <SONAR_TOKEN=61ff7f3f93564ba1dd37b5c22775799294ab785d>
+Tue Jul 12 12:44:56 2022: envp[19]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:56 2022: envp[20]: <COLORTERM=truecolor>
+Tue Jul 12 12:44:56 2022: envp[21]: <UBUNTU_MENUPROXY=1>
+Tue Jul 12 12:44:56 2022: envp[22]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Tue Jul 12 12:44:56 2022: envp[23]: <IM_CONFIG_PHASE=1>
+Tue Jul 12 12:44:56 2022: envp[24]: <LOGNAME=a967a038>
+Tue Jul 12 12:44:56 2022: envp[25]: <SDKMAN_CANDIDATES_API=https://api.sdkman.io/2>
+Tue Jul 12 12:44:56 2022: envp[26]: <JOURNAL_STREAM=9:11764889>
+Tue Jul 12 12:44:56 2022: envp[27]: <_=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue Jul 12 12:44:56 2022: envp[28]: <XDG_SESSION_CLASS=user>
+Tue Jul 12 12:44:56 2022: envp[29]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Tue Jul 12 12:44:56 2022: envp[30]: <WWW_HOME=http://www.ittc.ku.edu/>
+Tue Jul 12 12:44:56 2022: envp[31]: <TERM=xterm-256color>
+Tue Jul 12 12:44:56 2022: envp[32]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue Jul 12 12:44:56 2022: envp[33]: <PATH=~/Documents/pycharm-community-2022.1.1/bin/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/support/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/:~/Downloads/RESEARCH/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin:~/Downloads/RESEARCH/build-wrapper-linux-x86:/home/a967a038/.sdkman/candidates/gradle/current/bin:/home/a967a038/.cargo/bin:/usr/system/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin/X11:/usr/X11R6/bin:/sbin:/usr/sbin:/usr/local/sbin:/tools/matlab/bin>
+Tue Jul 12 12:44:56 2022: envp[34]: <SESSION_MANAGER=local/burdock.ittc.ku.edu:@/tmp/.ICE-unix/2229232,unix/burdock.ittc.ku.edu:/tmp/.ICE-unix/2229232>
+Tue Jul 12 12:44:56 2022: envp[35]: <SDKMAN_CANDIDATES_DIR=/home/a967a038/.sdkman/candidates>
+Tue Jul 12 12:44:56 2022: envp[36]: <GDM_LANG=en_US>
+Tue Jul 12 12:44:56 2022: envp[37]: <INVOCATION_ID=30383603d0214532aac85ee4e2afd5b4>
+Tue Jul 12 12:44:56 2022: envp[38]: <XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session3>
+Tue Jul 12 12:44:56 2022: envp[39]: <XDG_MENU_PREFIX=gnome->
+Tue Jul 12 12:44:56 2022: envp[40]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/042ea370_28b4_4c9a_8aee_872ad7d6f722>
+Tue Jul 12 12:44:56 2022: envp[41]: <XDG_RUNTIME_DIR=/run/user/100576833>
+Tue Jul 12 12:44:56 2022: envp[42]: <DISPLAY=:0>
+Tue Jul 12 12:44:56 2022: envp[43]: <DOMAINNAME=>
+Tue Jul 12 12:44:56 2022: envp[44]: <LANG=en_US.UTF-8>
+Tue Jul 12 12:44:56 2022: envp[45]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Tue Jul 12 12:44:56 2022: envp[46]: <XMODIFIERS=@im=ibus>
+Tue Jul 12 12:44:56 2022: envp[47]: <XDG_SESSION_DESKTOP=ubuntu>
+Tue Jul 12 12:44:56 2022: envp[48]: <XAUTHORITY=/home/a967a038/.Xauthority>
+Tue Jul 12 12:44:56 2022: envp[49]: <GNOME_TERMINAL_SERVICE=:1.150>
+Tue Jul 12 12:44:56 2022: envp[50]: <SDKMAN_DIR=/home/a967a038/.sdkman>
+Tue Jul 12 12:44:56 2022: envp[51]: <SDKMAN_PLATFORM=linuxx64>
+Tue Jul 12 12:44:56 2022: envp[52]: <SSH_AUTH_SOCK=/tmp/ssh-yU2igr10WOt3/agent.2229105>
+Tue Jul 12 12:44:56 2022: envp[53]: <XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/a967a038>
+Tue Jul 12 12:44:56 2022: envp[54]: <SHELL=/bin/bash>
+Tue Jul 12 12:44:56 2022: envp[55]: <HOST=burdock.ittc.ku.edu>
+Tue Jul 12 12:44:56 2022: envp[56]: <QT_ACCESSIBILITY=1>
+Tue Jul 12 12:44:56 2022: envp[57]: <GDMSESSION=ubuntu>
+Tue Jul 12 12:44:56 2022: envp[58]: <GPG_AGENT_INFO=/run/user/100576833/gnupg/S.gpg-agent:0:1>
+Tue Jul 12 12:44:56 2022: envp[59]: <QT_IM_MODULE=ibus>
+Tue Jul 12 12:44:56 2022: envp[60]: <PWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:56 2022: envp[61]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Tue Jul 12 12:44:56 2022: envp[62]: <PRINTER=duplex>
+Tue Jul 12 12:44:56 2022: envp[63]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:56 2022: envp[64]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Tue Jul 12 12:44:56 2022: envp[65]: <MANPATH=/usr/man:/usr/share/man:/usr/local/man:/usr/man/preformat:/usr/system/man:/usr/X11R6/man>
+Tue Jul 12 12:44:56 2022: envp[66]: <VTE_VERSION=6003>
+Tue Jul 12 12:44:56 2022: envp[67]: <LD_PRELOAD=>
+Tue Jul 12 12:44:56 2022: process created with pid: 2241896
+Tue Jul 12 12:44:56 2022: parent pid: 2241895
+Tue Jul 12 12:44:56 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:56 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:56 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:56 2022: argv[1]: <-quiet>
+Tue Jul 12 12:44:56 2022: argv[2]: <-I>
+Tue Jul 12 12:44:56 2022: argv[3]: <spec_qsort>
+Tue Jul 12 12:44:56 2022: argv[4]: <-imultiarch>
+Tue Jul 12 12:44:56 2022: argv[5]: <x86_64-linux-gnu>
+Tue Jul 12 12:44:56 2022: argv[6]: <-D_REENTRANT>
+Tue Jul 12 12:44:56 2022: argv[7]: <-D>
+Tue Jul 12 12:44:56 2022: argv[8]: <SPEC>
+Tue Jul 12 12:44:56 2022: argv[9]: <-D>
+Tue Jul 12 12:44:56 2022: argv[10]: <NDEBUG>
+Tue Jul 12 12:44:56 2022: argv[11]: <-D>
+Tue Jul 12 12:44:56 2022: argv[12]: <SPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:56 2022: argv[13]: <-D>
+Tue Jul 12 12:44:56 2022: argv[14]: <SPEC_OPENMP>
+Tue Jul 12 12:44:56 2022: argv[15]: <-D>
+Tue Jul 12 12:44:56 2022: argv[16]: <SPEC_LP64>
+Tue Jul 12 12:44:56 2022: argv[17]: <mcf.c>
+Tue Jul 12 12:44:56 2022: argv[18]: <-quiet>
+Tue Jul 12 12:44:56 2022: argv[19]: <-dumpbase>
+Tue Jul 12 12:44:56 2022: argv[20]: <mcf.c>
+Tue Jul 12 12:44:56 2022: argv[21]: <-m64>
+Tue Jul 12 12:44:56 2022: argv[22]: <-mtune=generic>
+Tue Jul 12 12:44:56 2022: argv[23]: <-march=x86-64>
+Tue Jul 12 12:44:56 2022: argv[24]: <-auxbase-strip>
+Tue Jul 12 12:44:56 2022: argv[25]: <mcf.o>
+Tue Jul 12 12:44:56 2022: argv[26]: <-g>
+Tue Jul 12 12:44:56 2022: argv[27]: <-std=c99>
+Tue Jul 12 12:44:56 2022: argv[28]: <-fopenmp>
+Tue Jul 12 12:44:56 2022: argv[29]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:56 2022: argv[30]: <-fgnu89-inline>
+Tue Jul 12 12:44:56 2022: argv[31]: <-fasynchronous-unwind-tables>
+Tue Jul 12 12:44:56 2022: argv[32]: <-fstack-protector-strong>
+Tue Jul 12 12:44:56 2022: argv[33]: <-Wformat>
+Tue Jul 12 12:44:56 2022: argv[34]: <-Wformat-security>
+Tue Jul 12 12:44:56 2022: argv[35]: <-fstack-clash-protection>
+Tue Jul 12 12:44:56 2022: argv[36]: <-fcf-protection>
+Tue Jul 12 12:44:56 2022: argv[37]: <-o>
+Tue Jul 12 12:44:56 2022: argv[38]: </tmp/ccWh0XRM.s>
+Tue Jul 12 12:44:56 2022: skipping process with pid: 2241896
+Tue Jul 12 12:44:56 2022: process created with pid: 2241897
+Tue Jul 12 12:44:56 2022: parent pid: 2241895
+Tue Jul 12 12:44:56 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:56 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Tue Jul 12 12:44:56 2022: argv[0]: <as>
+Tue Jul 12 12:44:56 2022: argv[1]: <-I>
+Tue Jul 12 12:44:56 2022: argv[2]: <spec_qsort>
+Tue Jul 12 12:44:56 2022: argv[3]: <--64>
+Tue Jul 12 12:44:56 2022: argv[4]: <-o>
+Tue Jul 12 12:44:56 2022: argv[5]: <mcf.o>
+Tue Jul 12 12:44:56 2022: argv[6]: </tmp/ccWh0XRM.s>
+Tue Jul 12 12:44:56 2022: skipping process with pid: 2241897
+Tue Jul 12 12:44:56 2022: process created with pid: 2241898
+Tue Jul 12 12:44:56 2022: parent pid: 2241894
+Tue Jul 12 12:44:56 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:56 2022: executable: </usr/bin/x86_64-linux-gnu-gcc-9>
+Tue Jul 12 12:44:56 2022: argv[0]: </usr/bin/gcc>
+Tue Jul 12 12:44:56 2022: argv[1]: <-std=c99>
+Tue Jul 12 12:44:56 2022: argv[2]: <-m64>
+Tue Jul 12 12:44:56 2022: argv[3]: <-c>
+Tue Jul 12 12:44:56 2022: argv[4]: <-o>
+Tue Jul 12 12:44:56 2022: argv[5]: <mcfutil.o>
+Tue Jul 12 12:44:56 2022: argv[6]: <-DSPEC>
+Tue Jul 12 12:44:56 2022: argv[7]: <-DNDEBUG>
+Tue Jul 12 12:44:56 2022: argv[8]: <-Ispec_qsort>
+Tue Jul 12 12:44:56 2022: argv[9]: <-DSPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:56 2022: argv[10]: <-g>
+Tue Jul 12 12:44:56 2022: argv[11]: <-fopenmp>
+Tue Jul 12 12:44:56 2022: argv[12]: <-DSPEC_OPENMP>
+Tue Jul 12 12:44:56 2022: argv[13]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:56 2022: argv[14]: <-fgnu89-inline>
+Tue Jul 12 12:44:56 2022: argv[15]: <-DSPEC_LP64>
+Tue Jul 12 12:44:56 2022: argv[16]: <mcfutil.c>
+Tue Jul 12 12:44:56 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.Cx0rUw>
+Tue Jul 12 12:44:56 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Tue Jul 12 12:44:56 2022: envp[2]: <SDKMAN_VERSION=5.13.1>
+Tue Jul 12 12:44:56 2022: envp[3]: <MAIL=/var/spool/mail/a967a038>
+Tue Jul 12 12:44:56 2022: envp[4]: <LANGUAGE=en_US>
+Tue Jul 12 12:44:56 2022: envp[5]: <USER=a967a038>
+Tue Jul 12 12:44:56 2022: envp[6]: <SSH_AGENT_PID=2229184>
+Tue Jul 12 12:44:56 2022: envp[7]: <XDG_SESSION_TYPE=x11>
+Tue Jul 12 12:44:56 2022: envp[8]: <SHLVL=1>
+Tue Jul 12 12:44:56 2022: envp[9]: <HOME=/home/a967a038>
+Tue Jul 12 12:44:56 2022: envp[10]: <OLDPWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree>
+Tue Jul 12 12:44:56 2022: envp[11]: <DESKTOP_SESSION=ubuntu>
+Tue Jul 12 12:44:56 2022: envp[12]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Tue Jul 12 12:44:56 2022: envp[13]: <GRADLE_HOME=/home/a967a038/.sdkman/candidates/gradle/current>
+Tue Jul 12 12:44:56 2022: envp[14]: <GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:appmenu-gtk-module>
+Tue Jul 12 12:44:56 2022: envp[15]: <XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0>
+Tue Jul 12 12:44:56 2022: envp[16]: <MANAGERPID=2227683>
+Tue Jul 12 12:44:56 2022: envp[17]: <DBUS_STARTER_BUS_TYPE=session>
+Tue Jul 12 12:44:56 2022: envp[18]: <SONAR_TOKEN=61ff7f3f93564ba1dd37b5c22775799294ab785d>
+Tue Jul 12 12:44:56 2022: envp[19]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:56 2022: envp[20]: <COLORTERM=truecolor>
+Tue Jul 12 12:44:56 2022: envp[21]: <UBUNTU_MENUPROXY=1>
+Tue Jul 12 12:44:56 2022: envp[22]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Tue Jul 12 12:44:56 2022: envp[23]: <IM_CONFIG_PHASE=1>
+Tue Jul 12 12:44:56 2022: envp[24]: <LOGNAME=a967a038>
+Tue Jul 12 12:44:56 2022: envp[25]: <SDKMAN_CANDIDATES_API=https://api.sdkman.io/2>
+Tue Jul 12 12:44:56 2022: envp[26]: <JOURNAL_STREAM=9:11764889>
+Tue Jul 12 12:44:56 2022: envp[27]: <_=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue Jul 12 12:44:56 2022: envp[28]: <XDG_SESSION_CLASS=user>
+Tue Jul 12 12:44:56 2022: envp[29]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Tue Jul 12 12:44:56 2022: envp[30]: <WWW_HOME=http://www.ittc.ku.edu/>
+Tue Jul 12 12:44:56 2022: envp[31]: <TERM=xterm-256color>
+Tue Jul 12 12:44:56 2022: envp[32]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue Jul 12 12:44:56 2022: envp[33]: <PATH=~/Documents/pycharm-community-2022.1.1/bin/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/support/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/:~/Downloads/RESEARCH/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin:~/Downloads/RESEARCH/build-wrapper-linux-x86:/home/a967a038/.sdkman/candidates/gradle/current/bin:/home/a967a038/.cargo/bin:/usr/system/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin/X11:/usr/X11R6/bin:/sbin:/usr/sbin:/usr/local/sbin:/tools/matlab/bin>
+Tue Jul 12 12:44:56 2022: envp[34]: <SESSION_MANAGER=local/burdock.ittc.ku.edu:@/tmp/.ICE-unix/2229232,unix/burdock.ittc.ku.edu:/tmp/.ICE-unix/2229232>
+Tue Jul 12 12:44:56 2022: envp[35]: <SDKMAN_CANDIDATES_DIR=/home/a967a038/.sdkman/candidates>
+Tue Jul 12 12:44:56 2022: envp[36]: <GDM_LANG=en_US>
+Tue Jul 12 12:44:56 2022: envp[37]: <INVOCATION_ID=30383603d0214532aac85ee4e2afd5b4>
+Tue Jul 12 12:44:56 2022: envp[38]: <XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session3>
+Tue Jul 12 12:44:56 2022: envp[39]: <XDG_MENU_PREFIX=gnome->
+Tue Jul 12 12:44:56 2022: envp[40]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/042ea370_28b4_4c9a_8aee_872ad7d6f722>
+Tue Jul 12 12:44:56 2022: envp[41]: <XDG_RUNTIME_DIR=/run/user/100576833>
+Tue Jul 12 12:44:56 2022: envp[42]: <DISPLAY=:0>
+Tue Jul 12 12:44:56 2022: envp[43]: <DOMAINNAME=>
+Tue Jul 12 12:44:56 2022: envp[44]: <LANG=en_US.UTF-8>
+Tue Jul 12 12:44:56 2022: envp[45]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Tue Jul 12 12:44:56 2022: envp[46]: <XMODIFIERS=@im=ibus>
+Tue Jul 12 12:44:56 2022: envp[47]: <XDG_SESSION_DESKTOP=ubuntu>
+Tue Jul 12 12:44:56 2022: envp[48]: <XAUTHORITY=/home/a967a038/.Xauthority>
+Tue Jul 12 12:44:56 2022: envp[49]: <GNOME_TERMINAL_SERVICE=:1.150>
+Tue Jul 12 12:44:56 2022: envp[50]: <SDKMAN_DIR=/home/a967a038/.sdkman>
+Tue Jul 12 12:44:56 2022: envp[51]: <SDKMAN_PLATFORM=linuxx64>
+Tue Jul 12 12:44:56 2022: envp[52]: <SSH_AUTH_SOCK=/tmp/ssh-yU2igr10WOt3/agent.2229105>
+Tue Jul 12 12:44:56 2022: envp[53]: <XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/a967a038>
+Tue Jul 12 12:44:56 2022: envp[54]: <SHELL=/bin/bash>
+Tue Jul 12 12:44:56 2022: envp[55]: <HOST=burdock.ittc.ku.edu>
+Tue Jul 12 12:44:56 2022: envp[56]: <QT_ACCESSIBILITY=1>
+Tue Jul 12 12:44:56 2022: envp[57]: <GDMSESSION=ubuntu>
+Tue Jul 12 12:44:56 2022: envp[58]: <GPG_AGENT_INFO=/run/user/100576833/gnupg/S.gpg-agent:0:1>
+Tue Jul 12 12:44:56 2022: envp[59]: <QT_IM_MODULE=ibus>
+Tue Jul 12 12:44:56 2022: envp[60]: <PWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:56 2022: envp[61]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Tue Jul 12 12:44:56 2022: envp[62]: <PRINTER=duplex>
+Tue Jul 12 12:44:56 2022: envp[63]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:56 2022: envp[64]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Tue Jul 12 12:44:56 2022: envp[65]: <MANPATH=/usr/man:/usr/share/man:/usr/local/man:/usr/man/preformat:/usr/system/man:/usr/X11R6/man>
+Tue Jul 12 12:44:56 2022: envp[66]: <VTE_VERSION=6003>
+Tue Jul 12 12:44:56 2022: envp[67]: <LD_PRELOAD=>
+Tue Jul 12 12:44:56 2022: process created with pid: 2241899
+Tue Jul 12 12:44:56 2022: parent pid: 2241898
+Tue Jul 12 12:44:56 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:56 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:56 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:56 2022: argv[1]: <-quiet>
+Tue Jul 12 12:44:56 2022: argv[2]: <-I>
+Tue Jul 12 12:44:56 2022: argv[3]: <spec_qsort>
+Tue Jul 12 12:44:56 2022: argv[4]: <-imultiarch>
+Tue Jul 12 12:44:56 2022: argv[5]: <x86_64-linux-gnu>
+Tue Jul 12 12:44:56 2022: argv[6]: <-D_REENTRANT>
+Tue Jul 12 12:44:56 2022: argv[7]: <-D>
+Tue Jul 12 12:44:56 2022: argv[8]: <SPEC>
+Tue Jul 12 12:44:56 2022: argv[9]: <-D>
+Tue Jul 12 12:44:56 2022: argv[10]: <NDEBUG>
+Tue Jul 12 12:44:56 2022: argv[11]: <-D>
+Tue Jul 12 12:44:56 2022: argv[12]: <SPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:56 2022: argv[13]: <-D>
+Tue Jul 12 12:44:56 2022: argv[14]: <SPEC_OPENMP>
+Tue Jul 12 12:44:56 2022: argv[15]: <-D>
+Tue Jul 12 12:44:56 2022: argv[16]: <SPEC_LP64>
+Tue Jul 12 12:44:56 2022: argv[17]: <mcfutil.c>
+Tue Jul 12 12:44:56 2022: argv[18]: <-quiet>
+Tue Jul 12 12:44:56 2022: argv[19]: <-dumpbase>
+Tue Jul 12 12:44:56 2022: argv[20]: <mcfutil.c>
+Tue Jul 12 12:44:56 2022: argv[21]: <-m64>
+Tue Jul 12 12:44:56 2022: argv[22]: <-mtune=generic>
+Tue Jul 12 12:44:56 2022: argv[23]: <-march=x86-64>
+Tue Jul 12 12:44:56 2022: argv[24]: <-auxbase-strip>
+Tue Jul 12 12:44:56 2022: argv[25]: <mcfutil.o>
+Tue Jul 12 12:44:56 2022: argv[26]: <-g>
+Tue Jul 12 12:44:56 2022: argv[27]: <-std=c99>
+Tue Jul 12 12:44:56 2022: argv[28]: <-fopenmp>
+Tue Jul 12 12:44:56 2022: argv[29]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:56 2022: argv[30]: <-fgnu89-inline>
+Tue Jul 12 12:44:56 2022: argv[31]: <-fasynchronous-unwind-tables>
+Tue Jul 12 12:44:56 2022: argv[32]: <-fstack-protector-strong>
+Tue Jul 12 12:44:56 2022: argv[33]: <-Wformat>
+Tue Jul 12 12:44:56 2022: argv[34]: <-Wformat-security>
+Tue Jul 12 12:44:56 2022: argv[35]: <-fstack-clash-protection>
+Tue Jul 12 12:44:56 2022: argv[36]: <-fcf-protection>
+Tue Jul 12 12:44:56 2022: argv[37]: <-o>
+Tue Jul 12 12:44:56 2022: argv[38]: </tmp/ccqlL12Z.s>
+Tue Jul 12 12:44:56 2022: skipping process with pid: 2241899
+Tue Jul 12 12:44:56 2022: process created with pid: 2241900
+Tue Jul 12 12:44:56 2022: parent pid: 2241898
+Tue Jul 12 12:44:56 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:56 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Tue Jul 12 12:44:56 2022: argv[0]: <as>
+Tue Jul 12 12:44:56 2022: argv[1]: <-I>
+Tue Jul 12 12:44:56 2022: argv[2]: <spec_qsort>
+Tue Jul 12 12:44:56 2022: argv[3]: <--64>
+Tue Jul 12 12:44:56 2022: argv[4]: <-o>
+Tue Jul 12 12:44:56 2022: argv[5]: <mcfutil.o>
+Tue Jul 12 12:44:56 2022: argv[6]: </tmp/ccqlL12Z.s>
+Tue Jul 12 12:44:56 2022: skipping process with pid: 2241900
+Tue Jul 12 12:44:56 2022: process created with pid: 2241901
+Tue Jul 12 12:44:56 2022: parent pid: 2241894
+Tue Jul 12 12:44:56 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:56 2022: executable: </usr/bin/x86_64-linux-gnu-gcc-9>
+Tue Jul 12 12:44:56 2022: argv[0]: </usr/bin/gcc>
+Tue Jul 12 12:44:56 2022: argv[1]: <-std=c99>
+Tue Jul 12 12:44:56 2022: argv[2]: <-m64>
+Tue Jul 12 12:44:56 2022: argv[3]: <-c>
+Tue Jul 12 12:44:56 2022: argv[4]: <-o>
+Tue Jul 12 12:44:56 2022: argv[5]: <readmin.o>
+Tue Jul 12 12:44:56 2022: argv[6]: <-DSPEC>
+Tue Jul 12 12:44:56 2022: argv[7]: <-DNDEBUG>
+Tue Jul 12 12:44:56 2022: argv[8]: <-Ispec_qsort>
+Tue Jul 12 12:44:56 2022: argv[9]: <-DSPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:56 2022: argv[10]: <-g>
+Tue Jul 12 12:44:56 2022: argv[11]: <-fopenmp>
+Tue Jul 12 12:44:56 2022: argv[12]: <-DSPEC_OPENMP>
+Tue Jul 12 12:44:56 2022: argv[13]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:56 2022: argv[14]: <-fgnu89-inline>
+Tue Jul 12 12:44:56 2022: argv[15]: <-DSPEC_LP64>
+Tue Jul 12 12:44:56 2022: argv[16]: <readmin.c>
+Tue Jul 12 12:44:56 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.Cx0rUw>
+Tue Jul 12 12:44:56 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Tue Jul 12 12:44:56 2022: envp[2]: <SDKMAN_VERSION=5.13.1>
+Tue Jul 12 12:44:56 2022: envp[3]: <MAIL=/var/spool/mail/a967a038>
+Tue Jul 12 12:44:56 2022: envp[4]: <LANGUAGE=en_US>
+Tue Jul 12 12:44:56 2022: envp[5]: <USER=a967a038>
+Tue Jul 12 12:44:56 2022: envp[6]: <SSH_AGENT_PID=2229184>
+Tue Jul 12 12:44:56 2022: envp[7]: <XDG_SESSION_TYPE=x11>
+Tue Jul 12 12:44:56 2022: envp[8]: <SHLVL=1>
+Tue Jul 12 12:44:56 2022: envp[9]: <HOME=/home/a967a038>
+Tue Jul 12 12:44:56 2022: envp[10]: <OLDPWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree>
+Tue Jul 12 12:44:56 2022: envp[11]: <DESKTOP_SESSION=ubuntu>
+Tue Jul 12 12:44:56 2022: envp[12]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Tue Jul 12 12:44:56 2022: envp[13]: <GRADLE_HOME=/home/a967a038/.sdkman/candidates/gradle/current>
+Tue Jul 12 12:44:56 2022: envp[14]: <GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:appmenu-gtk-module>
+Tue Jul 12 12:44:56 2022: envp[15]: <XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0>
+Tue Jul 12 12:44:56 2022: envp[16]: <MANAGERPID=2227683>
+Tue Jul 12 12:44:56 2022: envp[17]: <DBUS_STARTER_BUS_TYPE=session>
+Tue Jul 12 12:44:56 2022: envp[18]: <SONAR_TOKEN=61ff7f3f93564ba1dd37b5c22775799294ab785d>
+Tue Jul 12 12:44:56 2022: envp[19]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:56 2022: envp[20]: <COLORTERM=truecolor>
+Tue Jul 12 12:44:56 2022: envp[21]: <UBUNTU_MENUPROXY=1>
+Tue Jul 12 12:44:56 2022: envp[22]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Tue Jul 12 12:44:56 2022: envp[23]: <IM_CONFIG_PHASE=1>
+Tue Jul 12 12:44:56 2022: envp[24]: <LOGNAME=a967a038>
+Tue Jul 12 12:44:56 2022: envp[25]: <SDKMAN_CANDIDATES_API=https://api.sdkman.io/2>
+Tue Jul 12 12:44:56 2022: envp[26]: <JOURNAL_STREAM=9:11764889>
+Tue Jul 12 12:44:56 2022: envp[27]: <_=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue Jul 12 12:44:56 2022: envp[28]: <XDG_SESSION_CLASS=user>
+Tue Jul 12 12:44:56 2022: envp[29]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Tue Jul 12 12:44:56 2022: envp[30]: <WWW_HOME=http://www.ittc.ku.edu/>
+Tue Jul 12 12:44:56 2022: envp[31]: <TERM=xterm-256color>
+Tue Jul 12 12:44:56 2022: envp[32]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue Jul 12 12:44:56 2022: envp[33]: <PATH=~/Documents/pycharm-community-2022.1.1/bin/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/support/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/:~/Downloads/RESEARCH/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin:~/Downloads/RESEARCH/build-wrapper-linux-x86:/home/a967a038/.sdkman/candidates/gradle/current/bin:/home/a967a038/.cargo/bin:/usr/system/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin/X11:/usr/X11R6/bin:/sbin:/usr/sbin:/usr/local/sbin:/tools/matlab/bin>
+Tue Jul 12 12:44:56 2022: envp[34]: <SESSION_MANAGER=local/burdock.ittc.ku.edu:@/tmp/.ICE-unix/2229232,unix/burdock.ittc.ku.edu:/tmp/.ICE-unix/2229232>
+Tue Jul 12 12:44:56 2022: envp[35]: <SDKMAN_CANDIDATES_DIR=/home/a967a038/.sdkman/candidates>
+Tue Jul 12 12:44:56 2022: envp[36]: <GDM_LANG=en_US>
+Tue Jul 12 12:44:56 2022: envp[37]: <INVOCATION_ID=30383603d0214532aac85ee4e2afd5b4>
+Tue Jul 12 12:44:56 2022: envp[38]: <XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session3>
+Tue Jul 12 12:44:56 2022: envp[39]: <XDG_MENU_PREFIX=gnome->
+Tue Jul 12 12:44:56 2022: envp[40]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/042ea370_28b4_4c9a_8aee_872ad7d6f722>
+Tue Jul 12 12:44:56 2022: envp[41]: <XDG_RUNTIME_DIR=/run/user/100576833>
+Tue Jul 12 12:44:56 2022: envp[42]: <DISPLAY=:0>
+Tue Jul 12 12:44:56 2022: envp[43]: <DOMAINNAME=>
+Tue Jul 12 12:44:56 2022: envp[44]: <LANG=en_US.UTF-8>
+Tue Jul 12 12:44:56 2022: envp[45]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Tue Jul 12 12:44:56 2022: envp[46]: <XMODIFIERS=@im=ibus>
+Tue Jul 12 12:44:56 2022: envp[47]: <XDG_SESSION_DESKTOP=ubuntu>
+Tue Jul 12 12:44:56 2022: envp[48]: <XAUTHORITY=/home/a967a038/.Xauthority>
+Tue Jul 12 12:44:56 2022: envp[49]: <GNOME_TERMINAL_SERVICE=:1.150>
+Tue Jul 12 12:44:56 2022: envp[50]: <SDKMAN_DIR=/home/a967a038/.sdkman>
+Tue Jul 12 12:44:56 2022: envp[51]: <SDKMAN_PLATFORM=linuxx64>
+Tue Jul 12 12:44:56 2022: envp[52]: <SSH_AUTH_SOCK=/tmp/ssh-yU2igr10WOt3/agent.2229105>
+Tue Jul 12 12:44:56 2022: envp[53]: <XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/a967a038>
+Tue Jul 12 12:44:56 2022: envp[54]: <SHELL=/bin/bash>
+Tue Jul 12 12:44:56 2022: envp[55]: <HOST=burdock.ittc.ku.edu>
+Tue Jul 12 12:44:56 2022: envp[56]: <QT_ACCESSIBILITY=1>
+Tue Jul 12 12:44:56 2022: envp[57]: <GDMSESSION=ubuntu>
+Tue Jul 12 12:44:56 2022: envp[58]: <GPG_AGENT_INFO=/run/user/100576833/gnupg/S.gpg-agent:0:1>
+Tue Jul 12 12:44:56 2022: envp[59]: <QT_IM_MODULE=ibus>
+Tue Jul 12 12:44:56 2022: envp[60]: <PWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:56 2022: envp[61]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Tue Jul 12 12:44:56 2022: envp[62]: <PRINTER=duplex>
+Tue Jul 12 12:44:56 2022: envp[63]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:56 2022: envp[64]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Tue Jul 12 12:44:56 2022: envp[65]: <MANPATH=/usr/man:/usr/share/man:/usr/local/man:/usr/man/preformat:/usr/system/man:/usr/X11R6/man>
+Tue Jul 12 12:44:56 2022: envp[66]: <VTE_VERSION=6003>
+Tue Jul 12 12:44:56 2022: envp[67]: <LD_PRELOAD=>
+Tue Jul 12 12:44:56 2022: process created with pid: 2241902
+Tue Jul 12 12:44:56 2022: parent pid: 2241901
+Tue Jul 12 12:44:56 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:56 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:56 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:56 2022: argv[1]: <-quiet>
+Tue Jul 12 12:44:56 2022: argv[2]: <-I>
+Tue Jul 12 12:44:56 2022: argv[3]: <spec_qsort>
+Tue Jul 12 12:44:56 2022: argv[4]: <-imultiarch>
+Tue Jul 12 12:44:56 2022: argv[5]: <x86_64-linux-gnu>
+Tue Jul 12 12:44:56 2022: argv[6]: <-D_REENTRANT>
+Tue Jul 12 12:44:56 2022: argv[7]: <-D>
+Tue Jul 12 12:44:56 2022: argv[8]: <SPEC>
+Tue Jul 12 12:44:56 2022: argv[9]: <-D>
+Tue Jul 12 12:44:56 2022: argv[10]: <NDEBUG>
+Tue Jul 12 12:44:56 2022: argv[11]: <-D>
+Tue Jul 12 12:44:56 2022: argv[12]: <SPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:56 2022: argv[13]: <-D>
+Tue Jul 12 12:44:56 2022: argv[14]: <SPEC_OPENMP>
+Tue Jul 12 12:44:56 2022: argv[15]: <-D>
+Tue Jul 12 12:44:56 2022: argv[16]: <SPEC_LP64>
+Tue Jul 12 12:44:56 2022: argv[17]: <readmin.c>
+Tue Jul 12 12:44:56 2022: argv[18]: <-quiet>
+Tue Jul 12 12:44:56 2022: argv[19]: <-dumpbase>
+Tue Jul 12 12:44:56 2022: argv[20]: <readmin.c>
+Tue Jul 12 12:44:56 2022: argv[21]: <-m64>
+Tue Jul 12 12:44:56 2022: argv[22]: <-mtune=generic>
+Tue Jul 12 12:44:56 2022: argv[23]: <-march=x86-64>
+Tue Jul 12 12:44:56 2022: argv[24]: <-auxbase-strip>
+Tue Jul 12 12:44:56 2022: argv[25]: <readmin.o>
+Tue Jul 12 12:44:56 2022: argv[26]: <-g>
+Tue Jul 12 12:44:56 2022: argv[27]: <-std=c99>
+Tue Jul 12 12:44:56 2022: argv[28]: <-fopenmp>
+Tue Jul 12 12:44:56 2022: argv[29]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:56 2022: argv[30]: <-fgnu89-inline>
+Tue Jul 12 12:44:56 2022: argv[31]: <-fasynchronous-unwind-tables>
+Tue Jul 12 12:44:56 2022: argv[32]: <-fstack-protector-strong>
+Tue Jul 12 12:44:56 2022: argv[33]: <-Wformat>
+Tue Jul 12 12:44:56 2022: argv[34]: <-Wformat-security>
+Tue Jul 12 12:44:56 2022: argv[35]: <-fstack-clash-protection>
+Tue Jul 12 12:44:56 2022: argv[36]: <-fcf-protection>
+Tue Jul 12 12:44:56 2022: argv[37]: <-o>
+Tue Jul 12 12:44:56 2022: argv[38]: </tmp/ccxtETef.s>
+Tue Jul 12 12:44:56 2022: skipping process with pid: 2241902
+Tue Jul 12 12:44:56 2022: process created with pid: 2241903
+Tue Jul 12 12:44:56 2022: parent pid: 2241901
+Tue Jul 12 12:44:56 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:56 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Tue Jul 12 12:44:56 2022: argv[0]: <as>
+Tue Jul 12 12:44:56 2022: argv[1]: <-I>
+Tue Jul 12 12:44:56 2022: argv[2]: <spec_qsort>
+Tue Jul 12 12:44:56 2022: argv[3]: <--64>
+Tue Jul 12 12:44:56 2022: argv[4]: <-o>
+Tue Jul 12 12:44:56 2022: argv[5]: <readmin.o>
+Tue Jul 12 12:44:56 2022: argv[6]: </tmp/ccxtETef.s>
+Tue Jul 12 12:44:56 2022: skipping process with pid: 2241903
+Tue Jul 12 12:44:56 2022: process created with pid: 2241904
+Tue Jul 12 12:44:56 2022: parent pid: 2241894
+Tue Jul 12 12:44:56 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:56 2022: executable: </usr/bin/x86_64-linux-gnu-gcc-9>
+Tue Jul 12 12:44:56 2022: argv[0]: </usr/bin/gcc>
+Tue Jul 12 12:44:56 2022: argv[1]: <-std=c99>
+Tue Jul 12 12:44:56 2022: argv[2]: <-m64>
+Tue Jul 12 12:44:56 2022: argv[3]: <-c>
+Tue Jul 12 12:44:56 2022: argv[4]: <-o>
+Tue Jul 12 12:44:56 2022: argv[5]: <implicit.o>
+Tue Jul 12 12:44:56 2022: argv[6]: <-DSPEC>
+Tue Jul 12 12:44:56 2022: argv[7]: <-DNDEBUG>
+Tue Jul 12 12:44:56 2022: argv[8]: <-Ispec_qsort>
+Tue Jul 12 12:44:56 2022: argv[9]: <-DSPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:56 2022: argv[10]: <-g>
+Tue Jul 12 12:44:56 2022: argv[11]: <-fopenmp>
+Tue Jul 12 12:44:56 2022: argv[12]: <-DSPEC_OPENMP>
+Tue Jul 12 12:44:56 2022: argv[13]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:56 2022: argv[14]: <-fgnu89-inline>
+Tue Jul 12 12:44:56 2022: argv[15]: <-DSPEC_LP64>
+Tue Jul 12 12:44:56 2022: argv[16]: <implicit.c>
+Tue Jul 12 12:44:56 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.Cx0rUw>
+Tue Jul 12 12:44:56 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Tue Jul 12 12:44:56 2022: envp[2]: <SDKMAN_VERSION=5.13.1>
+Tue Jul 12 12:44:56 2022: envp[3]: <MAIL=/var/spool/mail/a967a038>
+Tue Jul 12 12:44:56 2022: envp[4]: <LANGUAGE=en_US>
+Tue Jul 12 12:44:56 2022: envp[5]: <USER=a967a038>
+Tue Jul 12 12:44:56 2022: envp[6]: <SSH_AGENT_PID=2229184>
+Tue Jul 12 12:44:56 2022: envp[7]: <XDG_SESSION_TYPE=x11>
+Tue Jul 12 12:44:56 2022: envp[8]: <SHLVL=1>
+Tue Jul 12 12:44:56 2022: envp[9]: <HOME=/home/a967a038>
+Tue Jul 12 12:44:56 2022: envp[10]: <OLDPWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree>
+Tue Jul 12 12:44:56 2022: envp[11]: <DESKTOP_SESSION=ubuntu>
+Tue Jul 12 12:44:56 2022: envp[12]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Tue Jul 12 12:44:56 2022: envp[13]: <GRADLE_HOME=/home/a967a038/.sdkman/candidates/gradle/current>
+Tue Jul 12 12:44:56 2022: envp[14]: <GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:appmenu-gtk-module>
+Tue Jul 12 12:44:56 2022: envp[15]: <XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0>
+Tue Jul 12 12:44:56 2022: envp[16]: <MANAGERPID=2227683>
+Tue Jul 12 12:44:56 2022: envp[17]: <DBUS_STARTER_BUS_TYPE=session>
+Tue Jul 12 12:44:56 2022: envp[18]: <SONAR_TOKEN=61ff7f3f93564ba1dd37b5c22775799294ab785d>
+Tue Jul 12 12:44:56 2022: envp[19]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:56 2022: envp[20]: <COLORTERM=truecolor>
+Tue Jul 12 12:44:56 2022: envp[21]: <UBUNTU_MENUPROXY=1>
+Tue Jul 12 12:44:56 2022: envp[22]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Tue Jul 12 12:44:56 2022: envp[23]: <IM_CONFIG_PHASE=1>
+Tue Jul 12 12:44:56 2022: envp[24]: <LOGNAME=a967a038>
+Tue Jul 12 12:44:56 2022: envp[25]: <SDKMAN_CANDIDATES_API=https://api.sdkman.io/2>
+Tue Jul 12 12:44:56 2022: envp[26]: <JOURNAL_STREAM=9:11764889>
+Tue Jul 12 12:44:56 2022: envp[27]: <_=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue Jul 12 12:44:56 2022: envp[28]: <XDG_SESSION_CLASS=user>
+Tue Jul 12 12:44:56 2022: envp[29]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Tue Jul 12 12:44:56 2022: envp[30]: <WWW_HOME=http://www.ittc.ku.edu/>
+Tue Jul 12 12:44:56 2022: envp[31]: <TERM=xterm-256color>
+Tue Jul 12 12:44:56 2022: envp[32]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue Jul 12 12:44:56 2022: envp[33]: <PATH=~/Documents/pycharm-community-2022.1.1/bin/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/support/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/:~/Downloads/RESEARCH/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin:~/Downloads/RESEARCH/build-wrapper-linux-x86:/home/a967a038/.sdkman/candidates/gradle/current/bin:/home/a967a038/.cargo/bin:/usr/system/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin/X11:/usr/X11R6/bin:/sbin:/usr/sbin:/usr/local/sbin:/tools/matlab/bin>
+Tue Jul 12 12:44:56 2022: envp[34]: <SESSION_MANAGER=local/burdock.ittc.ku.edu:@/tmp/.ICE-unix/2229232,unix/burdock.ittc.ku.edu:/tmp/.ICE-unix/2229232>
+Tue Jul 12 12:44:56 2022: envp[35]: <SDKMAN_CANDIDATES_DIR=/home/a967a038/.sdkman/candidates>
+Tue Jul 12 12:44:56 2022: envp[36]: <GDM_LANG=en_US>
+Tue Jul 12 12:44:56 2022: envp[37]: <INVOCATION_ID=30383603d0214532aac85ee4e2afd5b4>
+Tue Jul 12 12:44:56 2022: envp[38]: <XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session3>
+Tue Jul 12 12:44:56 2022: envp[39]: <XDG_MENU_PREFIX=gnome->
+Tue Jul 12 12:44:56 2022: envp[40]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/042ea370_28b4_4c9a_8aee_872ad7d6f722>
+Tue Jul 12 12:44:56 2022: envp[41]: <XDG_RUNTIME_DIR=/run/user/100576833>
+Tue Jul 12 12:44:56 2022: envp[42]: <DISPLAY=:0>
+Tue Jul 12 12:44:56 2022: envp[43]: <DOMAINNAME=>
+Tue Jul 12 12:44:56 2022: envp[44]: <LANG=en_US.UTF-8>
+Tue Jul 12 12:44:56 2022: envp[45]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Tue Jul 12 12:44:56 2022: envp[46]: <XMODIFIERS=@im=ibus>
+Tue Jul 12 12:44:56 2022: envp[47]: <XDG_SESSION_DESKTOP=ubuntu>
+Tue Jul 12 12:44:56 2022: envp[48]: <XAUTHORITY=/home/a967a038/.Xauthority>
+Tue Jul 12 12:44:56 2022: envp[49]: <GNOME_TERMINAL_SERVICE=:1.150>
+Tue Jul 12 12:44:56 2022: envp[50]: <SDKMAN_DIR=/home/a967a038/.sdkman>
+Tue Jul 12 12:44:56 2022: envp[51]: <SDKMAN_PLATFORM=linuxx64>
+Tue Jul 12 12:44:56 2022: envp[52]: <SSH_AUTH_SOCK=/tmp/ssh-yU2igr10WOt3/agent.2229105>
+Tue Jul 12 12:44:56 2022: envp[53]: <XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/a967a038>
+Tue Jul 12 12:44:56 2022: envp[54]: <SHELL=/bin/bash>
+Tue Jul 12 12:44:56 2022: envp[55]: <HOST=burdock.ittc.ku.edu>
+Tue Jul 12 12:44:56 2022: envp[56]: <QT_ACCESSIBILITY=1>
+Tue Jul 12 12:44:56 2022: envp[57]: <GDMSESSION=ubuntu>
+Tue Jul 12 12:44:56 2022: envp[58]: <GPG_AGENT_INFO=/run/user/100576833/gnupg/S.gpg-agent:0:1>
+Tue Jul 12 12:44:56 2022: envp[59]: <QT_IM_MODULE=ibus>
+Tue Jul 12 12:44:56 2022: envp[60]: <PWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:56 2022: envp[61]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Tue Jul 12 12:44:56 2022: envp[62]: <PRINTER=duplex>
+Tue Jul 12 12:44:56 2022: envp[63]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:56 2022: envp[64]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Tue Jul 12 12:44:56 2022: envp[65]: <MANPATH=/usr/man:/usr/share/man:/usr/local/man:/usr/man/preformat:/usr/system/man:/usr/X11R6/man>
+Tue Jul 12 12:44:56 2022: envp[66]: <VTE_VERSION=6003>
+Tue Jul 12 12:44:56 2022: envp[67]: <LD_PRELOAD=>
+Tue Jul 12 12:44:56 2022: process created with pid: 2241905
+Tue Jul 12 12:44:56 2022: parent pid: 2241904
+Tue Jul 12 12:44:56 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:56 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:56 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:56 2022: argv[1]: <-quiet>
+Tue Jul 12 12:44:56 2022: argv[2]: <-I>
+Tue Jul 12 12:44:56 2022: argv[3]: <spec_qsort>
+Tue Jul 12 12:44:56 2022: argv[4]: <-imultiarch>
+Tue Jul 12 12:44:56 2022: argv[5]: <x86_64-linux-gnu>
+Tue Jul 12 12:44:56 2022: argv[6]: <-D_REENTRANT>
+Tue Jul 12 12:44:56 2022: argv[7]: <-D>
+Tue Jul 12 12:44:56 2022: argv[8]: <SPEC>
+Tue Jul 12 12:44:56 2022: argv[9]: <-D>
+Tue Jul 12 12:44:56 2022: argv[10]: <NDEBUG>
+Tue Jul 12 12:44:56 2022: argv[11]: <-D>
+Tue Jul 12 12:44:56 2022: argv[12]: <SPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:56 2022: argv[13]: <-D>
+Tue Jul 12 12:44:56 2022: argv[14]: <SPEC_OPENMP>
+Tue Jul 12 12:44:56 2022: argv[15]: <-D>
+Tue Jul 12 12:44:56 2022: argv[16]: <SPEC_LP64>
+Tue Jul 12 12:44:56 2022: argv[17]: <implicit.c>
+Tue Jul 12 12:44:56 2022: argv[18]: <-quiet>
+Tue Jul 12 12:44:56 2022: argv[19]: <-dumpbase>
+Tue Jul 12 12:44:56 2022: argv[20]: <implicit.c>
+Tue Jul 12 12:44:56 2022: argv[21]: <-m64>
+Tue Jul 12 12:44:56 2022: argv[22]: <-mtune=generic>
+Tue Jul 12 12:44:56 2022: argv[23]: <-march=x86-64>
+Tue Jul 12 12:44:56 2022: argv[24]: <-auxbase-strip>
+Tue Jul 12 12:44:56 2022: argv[25]: <implicit.o>
+Tue Jul 12 12:44:56 2022: argv[26]: <-g>
+Tue Jul 12 12:44:56 2022: argv[27]: <-std=c99>
+Tue Jul 12 12:44:56 2022: argv[28]: <-fopenmp>
+Tue Jul 12 12:44:56 2022: argv[29]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:56 2022: argv[30]: <-fgnu89-inline>
+Tue Jul 12 12:44:56 2022: argv[31]: <-fasynchronous-unwind-tables>
+Tue Jul 12 12:44:56 2022: argv[32]: <-fstack-protector-strong>
+Tue Jul 12 12:44:56 2022: argv[33]: <-Wformat>
+Tue Jul 12 12:44:56 2022: argv[34]: <-Wformat-security>
+Tue Jul 12 12:44:56 2022: argv[35]: <-fstack-clash-protection>
+Tue Jul 12 12:44:56 2022: argv[36]: <-fcf-protection>
+Tue Jul 12 12:44:56 2022: argv[37]: <-o>
+Tue Jul 12 12:44:56 2022: argv[38]: </tmp/cclqet5t.s>
+Tue Jul 12 12:44:56 2022: skipping process with pid: 2241905
+Tue Jul 12 12:44:57 2022: process created with pid: 2241906
+Tue Jul 12 12:44:57 2022: parent pid: 2241904
+Tue Jul 12 12:44:57 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Tue Jul 12 12:44:57 2022: argv[0]: <as>
+Tue Jul 12 12:44:57 2022: argv[1]: <-I>
+Tue Jul 12 12:44:57 2022: argv[2]: <spec_qsort>
+Tue Jul 12 12:44:57 2022: argv[3]: <--64>
+Tue Jul 12 12:44:57 2022: argv[4]: <-o>
+Tue Jul 12 12:44:57 2022: argv[5]: <implicit.o>
+Tue Jul 12 12:44:57 2022: argv[6]: </tmp/cclqet5t.s>
+Tue Jul 12 12:44:57 2022: skipping process with pid: 2241906
+Tue Jul 12 12:44:57 2022: process created with pid: 2241907
+Tue Jul 12 12:44:57 2022: parent pid: 2241894
+Tue Jul 12 12:44:57 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: executable: </usr/bin/x86_64-linux-gnu-gcc-9>
+Tue Jul 12 12:44:57 2022: argv[0]: </usr/bin/gcc>
+Tue Jul 12 12:44:57 2022: argv[1]: <-std=c99>
+Tue Jul 12 12:44:57 2022: argv[2]: <-m64>
+Tue Jul 12 12:44:57 2022: argv[3]: <-c>
+Tue Jul 12 12:44:57 2022: argv[4]: <-o>
+Tue Jul 12 12:44:57 2022: argv[5]: <pstart.o>
+Tue Jul 12 12:44:57 2022: argv[6]: <-DSPEC>
+Tue Jul 12 12:44:57 2022: argv[7]: <-DNDEBUG>
+Tue Jul 12 12:44:57 2022: argv[8]: <-Ispec_qsort>
+Tue Jul 12 12:44:57 2022: argv[9]: <-DSPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[10]: <-g>
+Tue Jul 12 12:44:57 2022: argv[11]: <-fopenmp>
+Tue Jul 12 12:44:57 2022: argv[12]: <-DSPEC_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[13]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:57 2022: argv[14]: <-fgnu89-inline>
+Tue Jul 12 12:44:57 2022: argv[15]: <-DSPEC_LP64>
+Tue Jul 12 12:44:57 2022: argv[16]: <pstart.c>
+Tue Jul 12 12:44:57 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.Cx0rUw>
+Tue Jul 12 12:44:57 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Tue Jul 12 12:44:57 2022: envp[2]: <SDKMAN_VERSION=5.13.1>
+Tue Jul 12 12:44:57 2022: envp[3]: <MAIL=/var/spool/mail/a967a038>
+Tue Jul 12 12:44:57 2022: envp[4]: <LANGUAGE=en_US>
+Tue Jul 12 12:44:57 2022: envp[5]: <USER=a967a038>
+Tue Jul 12 12:44:57 2022: envp[6]: <SSH_AGENT_PID=2229184>
+Tue Jul 12 12:44:57 2022: envp[7]: <XDG_SESSION_TYPE=x11>
+Tue Jul 12 12:44:57 2022: envp[8]: <SHLVL=1>
+Tue Jul 12 12:44:57 2022: envp[9]: <HOME=/home/a967a038>
+Tue Jul 12 12:44:57 2022: envp[10]: <OLDPWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree>
+Tue Jul 12 12:44:57 2022: envp[11]: <DESKTOP_SESSION=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[12]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[13]: <GRADLE_HOME=/home/a967a038/.sdkman/candidates/gradle/current>
+Tue Jul 12 12:44:57 2022: envp[14]: <GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:appmenu-gtk-module>
+Tue Jul 12 12:44:57 2022: envp[15]: <XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0>
+Tue Jul 12 12:44:57 2022: envp[16]: <MANAGERPID=2227683>
+Tue Jul 12 12:44:57 2022: envp[17]: <DBUS_STARTER_BUS_TYPE=session>
+Tue Jul 12 12:44:57 2022: envp[18]: <SONAR_TOKEN=61ff7f3f93564ba1dd37b5c22775799294ab785d>
+Tue Jul 12 12:44:57 2022: envp[19]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:57 2022: envp[20]: <COLORTERM=truecolor>
+Tue Jul 12 12:44:57 2022: envp[21]: <UBUNTU_MENUPROXY=1>
+Tue Jul 12 12:44:57 2022: envp[22]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Tue Jul 12 12:44:57 2022: envp[23]: <IM_CONFIG_PHASE=1>
+Tue Jul 12 12:44:57 2022: envp[24]: <LOGNAME=a967a038>
+Tue Jul 12 12:44:57 2022: envp[25]: <SDKMAN_CANDIDATES_API=https://api.sdkman.io/2>
+Tue Jul 12 12:44:57 2022: envp[26]: <JOURNAL_STREAM=9:11764889>
+Tue Jul 12 12:44:57 2022: envp[27]: <_=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue Jul 12 12:44:57 2022: envp[28]: <XDG_SESSION_CLASS=user>
+Tue Jul 12 12:44:57 2022: envp[29]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Tue Jul 12 12:44:57 2022: envp[30]: <WWW_HOME=http://www.ittc.ku.edu/>
+Tue Jul 12 12:44:57 2022: envp[31]: <TERM=xterm-256color>
+Tue Jul 12 12:44:57 2022: envp[32]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue Jul 12 12:44:57 2022: envp[33]: <PATH=~/Documents/pycharm-community-2022.1.1/bin/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/support/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/:~/Downloads/RESEARCH/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin:~/Downloads/RESEARCH/build-wrapper-linux-x86:/home/a967a038/.sdkman/candidates/gradle/current/bin:/home/a967a038/.cargo/bin:/usr/system/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin/X11:/usr/X11R6/bin:/sbin:/usr/sbin:/usr/local/sbin:/tools/matlab/bin>
+Tue Jul 12 12:44:57 2022: envp[34]: <SESSION_MANAGER=local/burdock.ittc.ku.edu:@/tmp/.ICE-unix/2229232,unix/burdock.ittc.ku.edu:/tmp/.ICE-unix/2229232>
+Tue Jul 12 12:44:57 2022: envp[35]: <SDKMAN_CANDIDATES_DIR=/home/a967a038/.sdkman/candidates>
+Tue Jul 12 12:44:57 2022: envp[36]: <GDM_LANG=en_US>
+Tue Jul 12 12:44:57 2022: envp[37]: <INVOCATION_ID=30383603d0214532aac85ee4e2afd5b4>
+Tue Jul 12 12:44:57 2022: envp[38]: <XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session3>
+Tue Jul 12 12:44:57 2022: envp[39]: <XDG_MENU_PREFIX=gnome->
+Tue Jul 12 12:44:57 2022: envp[40]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/042ea370_28b4_4c9a_8aee_872ad7d6f722>
+Tue Jul 12 12:44:57 2022: envp[41]: <XDG_RUNTIME_DIR=/run/user/100576833>
+Tue Jul 12 12:44:57 2022: envp[42]: <DISPLAY=:0>
+Tue Jul 12 12:44:57 2022: envp[43]: <DOMAINNAME=>
+Tue Jul 12 12:44:57 2022: envp[44]: <LANG=en_US.UTF-8>
+Tue Jul 12 12:44:57 2022: envp[45]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Tue Jul 12 12:44:57 2022: envp[46]: <XMODIFIERS=@im=ibus>
+Tue Jul 12 12:44:57 2022: envp[47]: <XDG_SESSION_DESKTOP=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[48]: <XAUTHORITY=/home/a967a038/.Xauthority>
+Tue Jul 12 12:44:57 2022: envp[49]: <GNOME_TERMINAL_SERVICE=:1.150>
+Tue Jul 12 12:44:57 2022: envp[50]: <SDKMAN_DIR=/home/a967a038/.sdkman>
+Tue Jul 12 12:44:57 2022: envp[51]: <SDKMAN_PLATFORM=linuxx64>
+Tue Jul 12 12:44:57 2022: envp[52]: <SSH_AUTH_SOCK=/tmp/ssh-yU2igr10WOt3/agent.2229105>
+Tue Jul 12 12:44:57 2022: envp[53]: <XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/a967a038>
+Tue Jul 12 12:44:57 2022: envp[54]: <SHELL=/bin/bash>
+Tue Jul 12 12:44:57 2022: envp[55]: <HOST=burdock.ittc.ku.edu>
+Tue Jul 12 12:44:57 2022: envp[56]: <QT_ACCESSIBILITY=1>
+Tue Jul 12 12:44:57 2022: envp[57]: <GDMSESSION=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[58]: <GPG_AGENT_INFO=/run/user/100576833/gnupg/S.gpg-agent:0:1>
+Tue Jul 12 12:44:57 2022: envp[59]: <QT_IM_MODULE=ibus>
+Tue Jul 12 12:44:57 2022: envp[60]: <PWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: envp[61]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Tue Jul 12 12:44:57 2022: envp[62]: <PRINTER=duplex>
+Tue Jul 12 12:44:57 2022: envp[63]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:57 2022: envp[64]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Tue Jul 12 12:44:57 2022: envp[65]: <MANPATH=/usr/man:/usr/share/man:/usr/local/man:/usr/man/preformat:/usr/system/man:/usr/X11R6/man>
+Tue Jul 12 12:44:57 2022: envp[66]: <VTE_VERSION=6003>
+Tue Jul 12 12:44:57 2022: envp[67]: <LD_PRELOAD=>
+Tue Jul 12 12:44:57 2022: process created with pid: 2241908
+Tue Jul 12 12:44:57 2022: parent pid: 2241907
+Tue Jul 12 12:44:57 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:57 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:57 2022: argv[1]: <-quiet>
+Tue Jul 12 12:44:57 2022: argv[2]: <-I>
+Tue Jul 12 12:44:57 2022: argv[3]: <spec_qsort>
+Tue Jul 12 12:44:57 2022: argv[4]: <-imultiarch>
+Tue Jul 12 12:44:57 2022: argv[5]: <x86_64-linux-gnu>
+Tue Jul 12 12:44:57 2022: argv[6]: <-D_REENTRANT>
+Tue Jul 12 12:44:57 2022: argv[7]: <-D>
+Tue Jul 12 12:44:57 2022: argv[8]: <SPEC>
+Tue Jul 12 12:44:57 2022: argv[9]: <-D>
+Tue Jul 12 12:44:57 2022: argv[10]: <NDEBUG>
+Tue Jul 12 12:44:57 2022: argv[11]: <-D>
+Tue Jul 12 12:44:57 2022: argv[12]: <SPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[13]: <-D>
+Tue Jul 12 12:44:57 2022: argv[14]: <SPEC_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[15]: <-D>
+Tue Jul 12 12:44:57 2022: argv[16]: <SPEC_LP64>
+Tue Jul 12 12:44:57 2022: argv[17]: <pstart.c>
+Tue Jul 12 12:44:57 2022: argv[18]: <-quiet>
+Tue Jul 12 12:44:57 2022: argv[19]: <-dumpbase>
+Tue Jul 12 12:44:57 2022: argv[20]: <pstart.c>
+Tue Jul 12 12:44:57 2022: argv[21]: <-m64>
+Tue Jul 12 12:44:57 2022: argv[22]: <-mtune=generic>
+Tue Jul 12 12:44:57 2022: argv[23]: <-march=x86-64>
+Tue Jul 12 12:44:57 2022: argv[24]: <-auxbase-strip>
+Tue Jul 12 12:44:57 2022: argv[25]: <pstart.o>
+Tue Jul 12 12:44:57 2022: argv[26]: <-g>
+Tue Jul 12 12:44:57 2022: argv[27]: <-std=c99>
+Tue Jul 12 12:44:57 2022: argv[28]: <-fopenmp>
+Tue Jul 12 12:44:57 2022: argv[29]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:57 2022: argv[30]: <-fgnu89-inline>
+Tue Jul 12 12:44:57 2022: argv[31]: <-fasynchronous-unwind-tables>
+Tue Jul 12 12:44:57 2022: argv[32]: <-fstack-protector-strong>
+Tue Jul 12 12:44:57 2022: argv[33]: <-Wformat>
+Tue Jul 12 12:44:57 2022: argv[34]: <-Wformat-security>
+Tue Jul 12 12:44:57 2022: argv[35]: <-fstack-clash-protection>
+Tue Jul 12 12:44:57 2022: argv[36]: <-fcf-protection>
+Tue Jul 12 12:44:57 2022: argv[37]: <-o>
+Tue Jul 12 12:44:57 2022: argv[38]: </tmp/ccWMkISI.s>
+Tue Jul 12 12:44:57 2022: skipping process with pid: 2241908
+Tue Jul 12 12:44:57 2022: process created with pid: 2241909
+Tue Jul 12 12:44:57 2022: parent pid: 2241907
+Tue Jul 12 12:44:57 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Tue Jul 12 12:44:57 2022: argv[0]: <as>
+Tue Jul 12 12:44:57 2022: argv[1]: <-I>
+Tue Jul 12 12:44:57 2022: argv[2]: <spec_qsort>
+Tue Jul 12 12:44:57 2022: argv[3]: <--64>
+Tue Jul 12 12:44:57 2022: argv[4]: <-o>
+Tue Jul 12 12:44:57 2022: argv[5]: <pstart.o>
+Tue Jul 12 12:44:57 2022: argv[6]: </tmp/ccWMkISI.s>
+Tue Jul 12 12:44:57 2022: skipping process with pid: 2241909
+Tue Jul 12 12:44:57 2022: process created with pid: 2241910
+Tue Jul 12 12:44:57 2022: parent pid: 2241894
+Tue Jul 12 12:44:57 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: executable: </usr/bin/x86_64-linux-gnu-gcc-9>
+Tue Jul 12 12:44:57 2022: argv[0]: </usr/bin/gcc>
+Tue Jul 12 12:44:57 2022: argv[1]: <-std=c99>
+Tue Jul 12 12:44:57 2022: argv[2]: <-m64>
+Tue Jul 12 12:44:57 2022: argv[3]: <-c>
+Tue Jul 12 12:44:57 2022: argv[4]: <-o>
+Tue Jul 12 12:44:57 2022: argv[5]: <output.o>
+Tue Jul 12 12:44:57 2022: argv[6]: <-DSPEC>
+Tue Jul 12 12:44:57 2022: argv[7]: <-DNDEBUG>
+Tue Jul 12 12:44:57 2022: argv[8]: <-Ispec_qsort>
+Tue Jul 12 12:44:57 2022: argv[9]: <-DSPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[10]: <-g>
+Tue Jul 12 12:44:57 2022: argv[11]: <-fopenmp>
+Tue Jul 12 12:44:57 2022: argv[12]: <-DSPEC_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[13]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:57 2022: argv[14]: <-fgnu89-inline>
+Tue Jul 12 12:44:57 2022: argv[15]: <-DSPEC_LP64>
+Tue Jul 12 12:44:57 2022: argv[16]: <output.c>
+Tue Jul 12 12:44:57 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.Cx0rUw>
+Tue Jul 12 12:44:57 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Tue Jul 12 12:44:57 2022: envp[2]: <SDKMAN_VERSION=5.13.1>
+Tue Jul 12 12:44:57 2022: envp[3]: <MAIL=/var/spool/mail/a967a038>
+Tue Jul 12 12:44:57 2022: envp[4]: <LANGUAGE=en_US>
+Tue Jul 12 12:44:57 2022: envp[5]: <USER=a967a038>
+Tue Jul 12 12:44:57 2022: envp[6]: <SSH_AGENT_PID=2229184>
+Tue Jul 12 12:44:57 2022: envp[7]: <XDG_SESSION_TYPE=x11>
+Tue Jul 12 12:44:57 2022: envp[8]: <SHLVL=1>
+Tue Jul 12 12:44:57 2022: envp[9]: <HOME=/home/a967a038>
+Tue Jul 12 12:44:57 2022: envp[10]: <OLDPWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree>
+Tue Jul 12 12:44:57 2022: envp[11]: <DESKTOP_SESSION=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[12]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[13]: <GRADLE_HOME=/home/a967a038/.sdkman/candidates/gradle/current>
+Tue Jul 12 12:44:57 2022: envp[14]: <GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:appmenu-gtk-module>
+Tue Jul 12 12:44:57 2022: envp[15]: <XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0>
+Tue Jul 12 12:44:57 2022: envp[16]: <MANAGERPID=2227683>
+Tue Jul 12 12:44:57 2022: envp[17]: <DBUS_STARTER_BUS_TYPE=session>
+Tue Jul 12 12:44:57 2022: envp[18]: <SONAR_TOKEN=61ff7f3f93564ba1dd37b5c22775799294ab785d>
+Tue Jul 12 12:44:57 2022: envp[19]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:57 2022: envp[20]: <COLORTERM=truecolor>
+Tue Jul 12 12:44:57 2022: envp[21]: <UBUNTU_MENUPROXY=1>
+Tue Jul 12 12:44:57 2022: envp[22]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Tue Jul 12 12:44:57 2022: envp[23]: <IM_CONFIG_PHASE=1>
+Tue Jul 12 12:44:57 2022: envp[24]: <LOGNAME=a967a038>
+Tue Jul 12 12:44:57 2022: envp[25]: <SDKMAN_CANDIDATES_API=https://api.sdkman.io/2>
+Tue Jul 12 12:44:57 2022: envp[26]: <JOURNAL_STREAM=9:11764889>
+Tue Jul 12 12:44:57 2022: envp[27]: <_=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue Jul 12 12:44:57 2022: envp[28]: <XDG_SESSION_CLASS=user>
+Tue Jul 12 12:44:57 2022: envp[29]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Tue Jul 12 12:44:57 2022: envp[30]: <WWW_HOME=http://www.ittc.ku.edu/>
+Tue Jul 12 12:44:57 2022: envp[31]: <TERM=xterm-256color>
+Tue Jul 12 12:44:57 2022: envp[32]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue Jul 12 12:44:57 2022: envp[33]: <PATH=~/Documents/pycharm-community-2022.1.1/bin/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/support/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/:~/Downloads/RESEARCH/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin:~/Downloads/RESEARCH/build-wrapper-linux-x86:/home/a967a038/.sdkman/candidates/gradle/current/bin:/home/a967a038/.cargo/bin:/usr/system/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin/X11:/usr/X11R6/bin:/sbin:/usr/sbin:/usr/local/sbin:/tools/matlab/bin>
+Tue Jul 12 12:44:57 2022: envp[34]: <SESSION_MANAGER=local/burdock.ittc.ku.edu:@/tmp/.ICE-unix/2229232,unix/burdock.ittc.ku.edu:/tmp/.ICE-unix/2229232>
+Tue Jul 12 12:44:57 2022: envp[35]: <SDKMAN_CANDIDATES_DIR=/home/a967a038/.sdkman/candidates>
+Tue Jul 12 12:44:57 2022: envp[36]: <GDM_LANG=en_US>
+Tue Jul 12 12:44:57 2022: envp[37]: <INVOCATION_ID=30383603d0214532aac85ee4e2afd5b4>
+Tue Jul 12 12:44:57 2022: envp[38]: <XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session3>
+Tue Jul 12 12:44:57 2022: envp[39]: <XDG_MENU_PREFIX=gnome->
+Tue Jul 12 12:44:57 2022: envp[40]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/042ea370_28b4_4c9a_8aee_872ad7d6f722>
+Tue Jul 12 12:44:57 2022: envp[41]: <XDG_RUNTIME_DIR=/run/user/100576833>
+Tue Jul 12 12:44:57 2022: envp[42]: <DISPLAY=:0>
+Tue Jul 12 12:44:57 2022: envp[43]: <DOMAINNAME=>
+Tue Jul 12 12:44:57 2022: envp[44]: <LANG=en_US.UTF-8>
+Tue Jul 12 12:44:57 2022: envp[45]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Tue Jul 12 12:44:57 2022: envp[46]: <XMODIFIERS=@im=ibus>
+Tue Jul 12 12:44:57 2022: envp[47]: <XDG_SESSION_DESKTOP=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[48]: <XAUTHORITY=/home/a967a038/.Xauthority>
+Tue Jul 12 12:44:57 2022: envp[49]: <GNOME_TERMINAL_SERVICE=:1.150>
+Tue Jul 12 12:44:57 2022: envp[50]: <SDKMAN_DIR=/home/a967a038/.sdkman>
+Tue Jul 12 12:44:57 2022: envp[51]: <SDKMAN_PLATFORM=linuxx64>
+Tue Jul 12 12:44:57 2022: envp[52]: <SSH_AUTH_SOCK=/tmp/ssh-yU2igr10WOt3/agent.2229105>
+Tue Jul 12 12:44:57 2022: envp[53]: <XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/a967a038>
+Tue Jul 12 12:44:57 2022: envp[54]: <SHELL=/bin/bash>
+Tue Jul 12 12:44:57 2022: envp[55]: <HOST=burdock.ittc.ku.edu>
+Tue Jul 12 12:44:57 2022: envp[56]: <QT_ACCESSIBILITY=1>
+Tue Jul 12 12:44:57 2022: envp[57]: <GDMSESSION=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[58]: <GPG_AGENT_INFO=/run/user/100576833/gnupg/S.gpg-agent:0:1>
+Tue Jul 12 12:44:57 2022: envp[59]: <QT_IM_MODULE=ibus>
+Tue Jul 12 12:44:57 2022: envp[60]: <PWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: envp[61]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Tue Jul 12 12:44:57 2022: envp[62]: <PRINTER=duplex>
+Tue Jul 12 12:44:57 2022: envp[63]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:57 2022: envp[64]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Tue Jul 12 12:44:57 2022: envp[65]: <MANPATH=/usr/man:/usr/share/man:/usr/local/man:/usr/man/preformat:/usr/system/man:/usr/X11R6/man>
+Tue Jul 12 12:44:57 2022: envp[66]: <VTE_VERSION=6003>
+Tue Jul 12 12:44:57 2022: envp[67]: <LD_PRELOAD=>
+Tue Jul 12 12:44:57 2022: process created with pid: 2241911
+Tue Jul 12 12:44:57 2022: parent pid: 2241910
+Tue Jul 12 12:44:57 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:57 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:57 2022: argv[1]: <-quiet>
+Tue Jul 12 12:44:57 2022: argv[2]: <-I>
+Tue Jul 12 12:44:57 2022: argv[3]: <spec_qsort>
+Tue Jul 12 12:44:57 2022: argv[4]: <-imultiarch>
+Tue Jul 12 12:44:57 2022: argv[5]: <x86_64-linux-gnu>
+Tue Jul 12 12:44:57 2022: argv[6]: <-D_REENTRANT>
+Tue Jul 12 12:44:57 2022: argv[7]: <-D>
+Tue Jul 12 12:44:57 2022: argv[8]: <SPEC>
+Tue Jul 12 12:44:57 2022: argv[9]: <-D>
+Tue Jul 12 12:44:57 2022: argv[10]: <NDEBUG>
+Tue Jul 12 12:44:57 2022: argv[11]: <-D>
+Tue Jul 12 12:44:57 2022: argv[12]: <SPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[13]: <-D>
+Tue Jul 12 12:44:57 2022: argv[14]: <SPEC_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[15]: <-D>
+Tue Jul 12 12:44:57 2022: argv[16]: <SPEC_LP64>
+Tue Jul 12 12:44:57 2022: argv[17]: <output.c>
+Tue Jul 12 12:44:57 2022: argv[18]: <-quiet>
+Tue Jul 12 12:44:57 2022: argv[19]: <-dumpbase>
+Tue Jul 12 12:44:57 2022: argv[20]: <output.c>
+Tue Jul 12 12:44:57 2022: argv[21]: <-m64>
+Tue Jul 12 12:44:57 2022: argv[22]: <-mtune=generic>
+Tue Jul 12 12:44:57 2022: argv[23]: <-march=x86-64>
+Tue Jul 12 12:44:57 2022: argv[24]: <-auxbase-strip>
+Tue Jul 12 12:44:57 2022: argv[25]: <output.o>
+Tue Jul 12 12:44:57 2022: argv[26]: <-g>
+Tue Jul 12 12:44:57 2022: argv[27]: <-std=c99>
+Tue Jul 12 12:44:57 2022: argv[28]: <-fopenmp>
+Tue Jul 12 12:44:57 2022: argv[29]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:57 2022: argv[30]: <-fgnu89-inline>
+Tue Jul 12 12:44:57 2022: argv[31]: <-fasynchronous-unwind-tables>
+Tue Jul 12 12:44:57 2022: argv[32]: <-fstack-protector-strong>
+Tue Jul 12 12:44:57 2022: argv[33]: <-Wformat>
+Tue Jul 12 12:44:57 2022: argv[34]: <-Wformat-security>
+Tue Jul 12 12:44:57 2022: argv[35]: <-fstack-clash-protection>
+Tue Jul 12 12:44:57 2022: argv[36]: <-fcf-protection>
+Tue Jul 12 12:44:57 2022: argv[37]: <-o>
+Tue Jul 12 12:44:57 2022: argv[38]: </tmp/ccwIF1KT.s>
+Tue Jul 12 12:44:57 2022: skipping process with pid: 2241911
+Tue Jul 12 12:44:57 2022: process created with pid: 2241912
+Tue Jul 12 12:44:57 2022: parent pid: 2241910
+Tue Jul 12 12:44:57 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Tue Jul 12 12:44:57 2022: argv[0]: <as>
+Tue Jul 12 12:44:57 2022: argv[1]: <-I>
+Tue Jul 12 12:44:57 2022: argv[2]: <spec_qsort>
+Tue Jul 12 12:44:57 2022: argv[3]: <--64>
+Tue Jul 12 12:44:57 2022: argv[4]: <-o>
+Tue Jul 12 12:44:57 2022: argv[5]: <output.o>
+Tue Jul 12 12:44:57 2022: argv[6]: </tmp/ccwIF1KT.s>
+Tue Jul 12 12:44:57 2022: skipping process with pid: 2241912
+Tue Jul 12 12:44:57 2022: process created with pid: 2241913
+Tue Jul 12 12:44:57 2022: parent pid: 2241894
+Tue Jul 12 12:44:57 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: executable: </usr/bin/x86_64-linux-gnu-gcc-9>
+Tue Jul 12 12:44:57 2022: argv[0]: </usr/bin/gcc>
+Tue Jul 12 12:44:57 2022: argv[1]: <-std=c99>
+Tue Jul 12 12:44:57 2022: argv[2]: <-m64>
+Tue Jul 12 12:44:57 2022: argv[3]: <-c>
+Tue Jul 12 12:44:57 2022: argv[4]: <-o>
+Tue Jul 12 12:44:57 2022: argv[5]: <treeup.o>
+Tue Jul 12 12:44:57 2022: argv[6]: <-DSPEC>
+Tue Jul 12 12:44:57 2022: argv[7]: <-DNDEBUG>
+Tue Jul 12 12:44:57 2022: argv[8]: <-Ispec_qsort>
+Tue Jul 12 12:44:57 2022: argv[9]: <-DSPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[10]: <-g>
+Tue Jul 12 12:44:57 2022: argv[11]: <-fopenmp>
+Tue Jul 12 12:44:57 2022: argv[12]: <-DSPEC_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[13]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:57 2022: argv[14]: <-fgnu89-inline>
+Tue Jul 12 12:44:57 2022: argv[15]: <-DSPEC_LP64>
+Tue Jul 12 12:44:57 2022: argv[16]: <treeup.c>
+Tue Jul 12 12:44:57 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.Cx0rUw>
+Tue Jul 12 12:44:57 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Tue Jul 12 12:44:57 2022: envp[2]: <SDKMAN_VERSION=5.13.1>
+Tue Jul 12 12:44:57 2022: envp[3]: <MAIL=/var/spool/mail/a967a038>
+Tue Jul 12 12:44:57 2022: envp[4]: <LANGUAGE=en_US>
+Tue Jul 12 12:44:57 2022: envp[5]: <USER=a967a038>
+Tue Jul 12 12:44:57 2022: envp[6]: <SSH_AGENT_PID=2229184>
+Tue Jul 12 12:44:57 2022: envp[7]: <XDG_SESSION_TYPE=x11>
+Tue Jul 12 12:44:57 2022: envp[8]: <SHLVL=1>
+Tue Jul 12 12:44:57 2022: envp[9]: <HOME=/home/a967a038>
+Tue Jul 12 12:44:57 2022: envp[10]: <OLDPWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree>
+Tue Jul 12 12:44:57 2022: envp[11]: <DESKTOP_SESSION=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[12]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[13]: <GRADLE_HOME=/home/a967a038/.sdkman/candidates/gradle/current>
+Tue Jul 12 12:44:57 2022: envp[14]: <GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:appmenu-gtk-module>
+Tue Jul 12 12:44:57 2022: envp[15]: <XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0>
+Tue Jul 12 12:44:57 2022: envp[16]: <MANAGERPID=2227683>
+Tue Jul 12 12:44:57 2022: envp[17]: <DBUS_STARTER_BUS_TYPE=session>
+Tue Jul 12 12:44:57 2022: envp[18]: <SONAR_TOKEN=61ff7f3f93564ba1dd37b5c22775799294ab785d>
+Tue Jul 12 12:44:57 2022: envp[19]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:57 2022: envp[20]: <COLORTERM=truecolor>
+Tue Jul 12 12:44:57 2022: envp[21]: <UBUNTU_MENUPROXY=1>
+Tue Jul 12 12:44:57 2022: envp[22]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Tue Jul 12 12:44:57 2022: envp[23]: <IM_CONFIG_PHASE=1>
+Tue Jul 12 12:44:57 2022: envp[24]: <LOGNAME=a967a038>
+Tue Jul 12 12:44:57 2022: envp[25]: <SDKMAN_CANDIDATES_API=https://api.sdkman.io/2>
+Tue Jul 12 12:44:57 2022: envp[26]: <JOURNAL_STREAM=9:11764889>
+Tue Jul 12 12:44:57 2022: envp[27]: <_=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue Jul 12 12:44:57 2022: envp[28]: <XDG_SESSION_CLASS=user>
+Tue Jul 12 12:44:57 2022: envp[29]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Tue Jul 12 12:44:57 2022: envp[30]: <WWW_HOME=http://www.ittc.ku.edu/>
+Tue Jul 12 12:44:57 2022: envp[31]: <TERM=xterm-256color>
+Tue Jul 12 12:44:57 2022: envp[32]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue Jul 12 12:44:57 2022: envp[33]: <PATH=~/Documents/pycharm-community-2022.1.1/bin/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/support/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/:~/Downloads/RESEARCH/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin:~/Downloads/RESEARCH/build-wrapper-linux-x86:/home/a967a038/.sdkman/candidates/gradle/current/bin:/home/a967a038/.cargo/bin:/usr/system/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin/X11:/usr/X11R6/bin:/sbin:/usr/sbin:/usr/local/sbin:/tools/matlab/bin>
+Tue Jul 12 12:44:57 2022: envp[34]: <SESSION_MANAGER=local/burdock.ittc.ku.edu:@/tmp/.ICE-unix/2229232,unix/burdock.ittc.ku.edu:/tmp/.ICE-unix/2229232>
+Tue Jul 12 12:44:57 2022: envp[35]: <SDKMAN_CANDIDATES_DIR=/home/a967a038/.sdkman/candidates>
+Tue Jul 12 12:44:57 2022: envp[36]: <GDM_LANG=en_US>
+Tue Jul 12 12:44:57 2022: envp[37]: <INVOCATION_ID=30383603d0214532aac85ee4e2afd5b4>
+Tue Jul 12 12:44:57 2022: envp[38]: <XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session3>
+Tue Jul 12 12:44:57 2022: envp[39]: <XDG_MENU_PREFIX=gnome->
+Tue Jul 12 12:44:57 2022: envp[40]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/042ea370_28b4_4c9a_8aee_872ad7d6f722>
+Tue Jul 12 12:44:57 2022: envp[41]: <XDG_RUNTIME_DIR=/run/user/100576833>
+Tue Jul 12 12:44:57 2022: envp[42]: <DISPLAY=:0>
+Tue Jul 12 12:44:57 2022: envp[43]: <DOMAINNAME=>
+Tue Jul 12 12:44:57 2022: envp[44]: <LANG=en_US.UTF-8>
+Tue Jul 12 12:44:57 2022: envp[45]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Tue Jul 12 12:44:57 2022: envp[46]: <XMODIFIERS=@im=ibus>
+Tue Jul 12 12:44:57 2022: envp[47]: <XDG_SESSION_DESKTOP=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[48]: <XAUTHORITY=/home/a967a038/.Xauthority>
+Tue Jul 12 12:44:57 2022: envp[49]: <GNOME_TERMINAL_SERVICE=:1.150>
+Tue Jul 12 12:44:57 2022: envp[50]: <SDKMAN_DIR=/home/a967a038/.sdkman>
+Tue Jul 12 12:44:57 2022: envp[51]: <SDKMAN_PLATFORM=linuxx64>
+Tue Jul 12 12:44:57 2022: envp[52]: <SSH_AUTH_SOCK=/tmp/ssh-yU2igr10WOt3/agent.2229105>
+Tue Jul 12 12:44:57 2022: envp[53]: <XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/a967a038>
+Tue Jul 12 12:44:57 2022: envp[54]: <SHELL=/bin/bash>
+Tue Jul 12 12:44:57 2022: envp[55]: <HOST=burdock.ittc.ku.edu>
+Tue Jul 12 12:44:57 2022: envp[56]: <QT_ACCESSIBILITY=1>
+Tue Jul 12 12:44:57 2022: envp[57]: <GDMSESSION=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[58]: <GPG_AGENT_INFO=/run/user/100576833/gnupg/S.gpg-agent:0:1>
+Tue Jul 12 12:44:57 2022: envp[59]: <QT_IM_MODULE=ibus>
+Tue Jul 12 12:44:57 2022: envp[60]: <PWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: envp[61]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Tue Jul 12 12:44:57 2022: envp[62]: <PRINTER=duplex>
+Tue Jul 12 12:44:57 2022: envp[63]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:57 2022: envp[64]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Tue Jul 12 12:44:57 2022: envp[65]: <MANPATH=/usr/man:/usr/share/man:/usr/local/man:/usr/man/preformat:/usr/system/man:/usr/X11R6/man>
+Tue Jul 12 12:44:57 2022: envp[66]: <VTE_VERSION=6003>
+Tue Jul 12 12:44:57 2022: envp[67]: <LD_PRELOAD=>
+Tue Jul 12 12:44:57 2022: process created with pid: 2241914
+Tue Jul 12 12:44:57 2022: parent pid: 2241913
+Tue Jul 12 12:44:57 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:57 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:57 2022: argv[1]: <-quiet>
+Tue Jul 12 12:44:57 2022: argv[2]: <-I>
+Tue Jul 12 12:44:57 2022: argv[3]: <spec_qsort>
+Tue Jul 12 12:44:57 2022: argv[4]: <-imultiarch>
+Tue Jul 12 12:44:57 2022: argv[5]: <x86_64-linux-gnu>
+Tue Jul 12 12:44:57 2022: argv[6]: <-D_REENTRANT>
+Tue Jul 12 12:44:57 2022: argv[7]: <-D>
+Tue Jul 12 12:44:57 2022: argv[8]: <SPEC>
+Tue Jul 12 12:44:57 2022: argv[9]: <-D>
+Tue Jul 12 12:44:57 2022: argv[10]: <NDEBUG>
+Tue Jul 12 12:44:57 2022: argv[11]: <-D>
+Tue Jul 12 12:44:57 2022: argv[12]: <SPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[13]: <-D>
+Tue Jul 12 12:44:57 2022: argv[14]: <SPEC_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[15]: <-D>
+Tue Jul 12 12:44:57 2022: argv[16]: <SPEC_LP64>
+Tue Jul 12 12:44:57 2022: argv[17]: <treeup.c>
+Tue Jul 12 12:44:57 2022: argv[18]: <-quiet>
+Tue Jul 12 12:44:57 2022: argv[19]: <-dumpbase>
+Tue Jul 12 12:44:57 2022: argv[20]: <treeup.c>
+Tue Jul 12 12:44:57 2022: argv[21]: <-m64>
+Tue Jul 12 12:44:57 2022: argv[22]: <-mtune=generic>
+Tue Jul 12 12:44:57 2022: argv[23]: <-march=x86-64>
+Tue Jul 12 12:44:57 2022: argv[24]: <-auxbase-strip>
+Tue Jul 12 12:44:57 2022: argv[25]: <treeup.o>
+Tue Jul 12 12:44:57 2022: argv[26]: <-g>
+Tue Jul 12 12:44:57 2022: argv[27]: <-std=c99>
+Tue Jul 12 12:44:57 2022: argv[28]: <-fopenmp>
+Tue Jul 12 12:44:57 2022: argv[29]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:57 2022: argv[30]: <-fgnu89-inline>
+Tue Jul 12 12:44:57 2022: argv[31]: <-fasynchronous-unwind-tables>
+Tue Jul 12 12:44:57 2022: argv[32]: <-fstack-protector-strong>
+Tue Jul 12 12:44:57 2022: argv[33]: <-Wformat>
+Tue Jul 12 12:44:57 2022: argv[34]: <-Wformat-security>
+Tue Jul 12 12:44:57 2022: argv[35]: <-fstack-clash-protection>
+Tue Jul 12 12:44:57 2022: argv[36]: <-fcf-protection>
+Tue Jul 12 12:44:57 2022: argv[37]: <-o>
+Tue Jul 12 12:44:57 2022: argv[38]: </tmp/ccv4H5O6.s>
+Tue Jul 12 12:44:57 2022: skipping process with pid: 2241914
+Tue Jul 12 12:44:57 2022: process created with pid: 2241915
+Tue Jul 12 12:44:57 2022: parent pid: 2241913
+Tue Jul 12 12:44:57 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Tue Jul 12 12:44:57 2022: argv[0]: <as>
+Tue Jul 12 12:44:57 2022: argv[1]: <-I>
+Tue Jul 12 12:44:57 2022: argv[2]: <spec_qsort>
+Tue Jul 12 12:44:57 2022: argv[3]: <--64>
+Tue Jul 12 12:44:57 2022: argv[4]: <-o>
+Tue Jul 12 12:44:57 2022: argv[5]: <treeup.o>
+Tue Jul 12 12:44:57 2022: argv[6]: </tmp/ccv4H5O6.s>
+Tue Jul 12 12:44:57 2022: skipping process with pid: 2241915
+Tue Jul 12 12:44:57 2022: process created with pid: 2241916
+Tue Jul 12 12:44:57 2022: parent pid: 2241894
+Tue Jul 12 12:44:57 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: executable: </usr/bin/x86_64-linux-gnu-gcc-9>
+Tue Jul 12 12:44:57 2022: argv[0]: </usr/bin/gcc>
+Tue Jul 12 12:44:57 2022: argv[1]: <-std=c99>
+Tue Jul 12 12:44:57 2022: argv[2]: <-m64>
+Tue Jul 12 12:44:57 2022: argv[3]: <-c>
+Tue Jul 12 12:44:57 2022: argv[4]: <-o>
+Tue Jul 12 12:44:57 2022: argv[5]: <pbla.o>
+Tue Jul 12 12:44:57 2022: argv[6]: <-DSPEC>
+Tue Jul 12 12:44:57 2022: argv[7]: <-DNDEBUG>
+Tue Jul 12 12:44:57 2022: argv[8]: <-Ispec_qsort>
+Tue Jul 12 12:44:57 2022: argv[9]: <-DSPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[10]: <-g>
+Tue Jul 12 12:44:57 2022: argv[11]: <-fopenmp>
+Tue Jul 12 12:44:57 2022: argv[12]: <-DSPEC_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[13]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:57 2022: argv[14]: <-fgnu89-inline>
+Tue Jul 12 12:44:57 2022: argv[15]: <-DSPEC_LP64>
+Tue Jul 12 12:44:57 2022: argv[16]: <pbla.c>
+Tue Jul 12 12:44:57 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.Cx0rUw>
+Tue Jul 12 12:44:57 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Tue Jul 12 12:44:57 2022: envp[2]: <SDKMAN_VERSION=5.13.1>
+Tue Jul 12 12:44:57 2022: envp[3]: <MAIL=/var/spool/mail/a967a038>
+Tue Jul 12 12:44:57 2022: envp[4]: <LANGUAGE=en_US>
+Tue Jul 12 12:44:57 2022: envp[5]: <USER=a967a038>
+Tue Jul 12 12:44:57 2022: envp[6]: <SSH_AGENT_PID=2229184>
+Tue Jul 12 12:44:57 2022: envp[7]: <XDG_SESSION_TYPE=x11>
+Tue Jul 12 12:44:57 2022: envp[8]: <SHLVL=1>
+Tue Jul 12 12:44:57 2022: envp[9]: <HOME=/home/a967a038>
+Tue Jul 12 12:44:57 2022: envp[10]: <OLDPWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree>
+Tue Jul 12 12:44:57 2022: envp[11]: <DESKTOP_SESSION=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[12]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[13]: <GRADLE_HOME=/home/a967a038/.sdkman/candidates/gradle/current>
+Tue Jul 12 12:44:57 2022: envp[14]: <GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:appmenu-gtk-module>
+Tue Jul 12 12:44:57 2022: envp[15]: <XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0>
+Tue Jul 12 12:44:57 2022: envp[16]: <MANAGERPID=2227683>
+Tue Jul 12 12:44:57 2022: envp[17]: <DBUS_STARTER_BUS_TYPE=session>
+Tue Jul 12 12:44:57 2022: envp[18]: <SONAR_TOKEN=61ff7f3f93564ba1dd37b5c22775799294ab785d>
+Tue Jul 12 12:44:57 2022: envp[19]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:57 2022: envp[20]: <COLORTERM=truecolor>
+Tue Jul 12 12:44:57 2022: envp[21]: <UBUNTU_MENUPROXY=1>
+Tue Jul 12 12:44:57 2022: envp[22]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Tue Jul 12 12:44:57 2022: envp[23]: <IM_CONFIG_PHASE=1>
+Tue Jul 12 12:44:57 2022: envp[24]: <LOGNAME=a967a038>
+Tue Jul 12 12:44:57 2022: envp[25]: <SDKMAN_CANDIDATES_API=https://api.sdkman.io/2>
+Tue Jul 12 12:44:57 2022: envp[26]: <JOURNAL_STREAM=9:11764889>
+Tue Jul 12 12:44:57 2022: envp[27]: <_=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue Jul 12 12:44:57 2022: envp[28]: <XDG_SESSION_CLASS=user>
+Tue Jul 12 12:44:57 2022: envp[29]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Tue Jul 12 12:44:57 2022: envp[30]: <WWW_HOME=http://www.ittc.ku.edu/>
+Tue Jul 12 12:44:57 2022: envp[31]: <TERM=xterm-256color>
+Tue Jul 12 12:44:57 2022: envp[32]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue Jul 12 12:44:57 2022: envp[33]: <PATH=~/Documents/pycharm-community-2022.1.1/bin/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/support/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/:~/Downloads/RESEARCH/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin:~/Downloads/RESEARCH/build-wrapper-linux-x86:/home/a967a038/.sdkman/candidates/gradle/current/bin:/home/a967a038/.cargo/bin:/usr/system/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin/X11:/usr/X11R6/bin:/sbin:/usr/sbin:/usr/local/sbin:/tools/matlab/bin>
+Tue Jul 12 12:44:57 2022: envp[34]: <SESSION_MANAGER=local/burdock.ittc.ku.edu:@/tmp/.ICE-unix/2229232,unix/burdock.ittc.ku.edu:/tmp/.ICE-unix/2229232>
+Tue Jul 12 12:44:57 2022: envp[35]: <SDKMAN_CANDIDATES_DIR=/home/a967a038/.sdkman/candidates>
+Tue Jul 12 12:44:57 2022: envp[36]: <GDM_LANG=en_US>
+Tue Jul 12 12:44:57 2022: envp[37]: <INVOCATION_ID=30383603d0214532aac85ee4e2afd5b4>
+Tue Jul 12 12:44:57 2022: envp[38]: <XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session3>
+Tue Jul 12 12:44:57 2022: envp[39]: <XDG_MENU_PREFIX=gnome->
+Tue Jul 12 12:44:57 2022: envp[40]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/042ea370_28b4_4c9a_8aee_872ad7d6f722>
+Tue Jul 12 12:44:57 2022: envp[41]: <XDG_RUNTIME_DIR=/run/user/100576833>
+Tue Jul 12 12:44:57 2022: envp[42]: <DISPLAY=:0>
+Tue Jul 12 12:44:57 2022: envp[43]: <DOMAINNAME=>
+Tue Jul 12 12:44:57 2022: envp[44]: <LANG=en_US.UTF-8>
+Tue Jul 12 12:44:57 2022: envp[45]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Tue Jul 12 12:44:57 2022: envp[46]: <XMODIFIERS=@im=ibus>
+Tue Jul 12 12:44:57 2022: envp[47]: <XDG_SESSION_DESKTOP=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[48]: <XAUTHORITY=/home/a967a038/.Xauthority>
+Tue Jul 12 12:44:57 2022: envp[49]: <GNOME_TERMINAL_SERVICE=:1.150>
+Tue Jul 12 12:44:57 2022: envp[50]: <SDKMAN_DIR=/home/a967a038/.sdkman>
+Tue Jul 12 12:44:57 2022: envp[51]: <SDKMAN_PLATFORM=linuxx64>
+Tue Jul 12 12:44:57 2022: envp[52]: <SSH_AUTH_SOCK=/tmp/ssh-yU2igr10WOt3/agent.2229105>
+Tue Jul 12 12:44:57 2022: envp[53]: <XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/a967a038>
+Tue Jul 12 12:44:57 2022: envp[54]: <SHELL=/bin/bash>
+Tue Jul 12 12:44:57 2022: envp[55]: <HOST=burdock.ittc.ku.edu>
+Tue Jul 12 12:44:57 2022: envp[56]: <QT_ACCESSIBILITY=1>
+Tue Jul 12 12:44:57 2022: envp[57]: <GDMSESSION=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[58]: <GPG_AGENT_INFO=/run/user/100576833/gnupg/S.gpg-agent:0:1>
+Tue Jul 12 12:44:57 2022: envp[59]: <QT_IM_MODULE=ibus>
+Tue Jul 12 12:44:57 2022: envp[60]: <PWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: envp[61]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Tue Jul 12 12:44:57 2022: envp[62]: <PRINTER=duplex>
+Tue Jul 12 12:44:57 2022: envp[63]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:57 2022: envp[64]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Tue Jul 12 12:44:57 2022: envp[65]: <MANPATH=/usr/man:/usr/share/man:/usr/local/man:/usr/man/preformat:/usr/system/man:/usr/X11R6/man>
+Tue Jul 12 12:44:57 2022: envp[66]: <VTE_VERSION=6003>
+Tue Jul 12 12:44:57 2022: envp[67]: <LD_PRELOAD=>
+Tue Jul 12 12:44:57 2022: process created with pid: 2241917
+Tue Jul 12 12:44:57 2022: parent pid: 2241916
+Tue Jul 12 12:44:57 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:57 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:57 2022: argv[1]: <-quiet>
+Tue Jul 12 12:44:57 2022: argv[2]: <-I>
+Tue Jul 12 12:44:57 2022: argv[3]: <spec_qsort>
+Tue Jul 12 12:44:57 2022: argv[4]: <-imultiarch>
+Tue Jul 12 12:44:57 2022: argv[5]: <x86_64-linux-gnu>
+Tue Jul 12 12:44:57 2022: argv[6]: <-D_REENTRANT>
+Tue Jul 12 12:44:57 2022: argv[7]: <-D>
+Tue Jul 12 12:44:57 2022: argv[8]: <SPEC>
+Tue Jul 12 12:44:57 2022: argv[9]: <-D>
+Tue Jul 12 12:44:57 2022: argv[10]: <NDEBUG>
+Tue Jul 12 12:44:57 2022: argv[11]: <-D>
+Tue Jul 12 12:44:57 2022: argv[12]: <SPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[13]: <-D>
+Tue Jul 12 12:44:57 2022: argv[14]: <SPEC_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[15]: <-D>
+Tue Jul 12 12:44:57 2022: argv[16]: <SPEC_LP64>
+Tue Jul 12 12:44:57 2022: argv[17]: <pbla.c>
+Tue Jul 12 12:44:57 2022: argv[18]: <-quiet>
+Tue Jul 12 12:44:57 2022: argv[19]: <-dumpbase>
+Tue Jul 12 12:44:57 2022: argv[20]: <pbla.c>
+Tue Jul 12 12:44:57 2022: argv[21]: <-m64>
+Tue Jul 12 12:44:57 2022: argv[22]: <-mtune=generic>
+Tue Jul 12 12:44:57 2022: argv[23]: <-march=x86-64>
+Tue Jul 12 12:44:57 2022: argv[24]: <-auxbase-strip>
+Tue Jul 12 12:44:57 2022: argv[25]: <pbla.o>
+Tue Jul 12 12:44:57 2022: argv[26]: <-g>
+Tue Jul 12 12:44:57 2022: argv[27]: <-std=c99>
+Tue Jul 12 12:44:57 2022: argv[28]: <-fopenmp>
+Tue Jul 12 12:44:57 2022: argv[29]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:57 2022: argv[30]: <-fgnu89-inline>
+Tue Jul 12 12:44:57 2022: argv[31]: <-fasynchronous-unwind-tables>
+Tue Jul 12 12:44:57 2022: argv[32]: <-fstack-protector-strong>
+Tue Jul 12 12:44:57 2022: argv[33]: <-Wformat>
+Tue Jul 12 12:44:57 2022: argv[34]: <-Wformat-security>
+Tue Jul 12 12:44:57 2022: argv[35]: <-fstack-clash-protection>
+Tue Jul 12 12:44:57 2022: argv[36]: <-fcf-protection>
+Tue Jul 12 12:44:57 2022: argv[37]: <-o>
+Tue Jul 12 12:44:57 2022: argv[38]: </tmp/ccf2JC5k.s>
+Tue Jul 12 12:44:57 2022: skipping process with pid: 2241917
+Tue Jul 12 12:44:57 2022: process created with pid: 2241918
+Tue Jul 12 12:44:57 2022: parent pid: 2241916
+Tue Jul 12 12:44:57 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Tue Jul 12 12:44:57 2022: argv[0]: <as>
+Tue Jul 12 12:44:57 2022: argv[1]: <-I>
+Tue Jul 12 12:44:57 2022: argv[2]: <spec_qsort>
+Tue Jul 12 12:44:57 2022: argv[3]: <--64>
+Tue Jul 12 12:44:57 2022: argv[4]: <-o>
+Tue Jul 12 12:44:57 2022: argv[5]: <pbla.o>
+Tue Jul 12 12:44:57 2022: argv[6]: </tmp/ccf2JC5k.s>
+Tue Jul 12 12:44:57 2022: skipping process with pid: 2241918
+Tue Jul 12 12:44:57 2022: process created with pid: 2241919
+Tue Jul 12 12:44:57 2022: parent pid: 2241894
+Tue Jul 12 12:44:57 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: executable: </usr/bin/x86_64-linux-gnu-gcc-9>
+Tue Jul 12 12:44:57 2022: argv[0]: </usr/bin/gcc>
+Tue Jul 12 12:44:57 2022: argv[1]: <-std=c99>
+Tue Jul 12 12:44:57 2022: argv[2]: <-m64>
+Tue Jul 12 12:44:57 2022: argv[3]: <-c>
+Tue Jul 12 12:44:57 2022: argv[4]: <-o>
+Tue Jul 12 12:44:57 2022: argv[5]: <pflowup.o>
+Tue Jul 12 12:44:57 2022: argv[6]: <-DSPEC>
+Tue Jul 12 12:44:57 2022: argv[7]: <-DNDEBUG>
+Tue Jul 12 12:44:57 2022: argv[8]: <-Ispec_qsort>
+Tue Jul 12 12:44:57 2022: argv[9]: <-DSPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[10]: <-g>
+Tue Jul 12 12:44:57 2022: argv[11]: <-fopenmp>
+Tue Jul 12 12:44:57 2022: argv[12]: <-DSPEC_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[13]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:57 2022: argv[14]: <-fgnu89-inline>
+Tue Jul 12 12:44:57 2022: argv[15]: <-DSPEC_LP64>
+Tue Jul 12 12:44:57 2022: argv[16]: <pflowup.c>
+Tue Jul 12 12:44:57 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.Cx0rUw>
+Tue Jul 12 12:44:57 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Tue Jul 12 12:44:57 2022: envp[2]: <SDKMAN_VERSION=5.13.1>
+Tue Jul 12 12:44:57 2022: envp[3]: <MAIL=/var/spool/mail/a967a038>
+Tue Jul 12 12:44:57 2022: envp[4]: <LANGUAGE=en_US>
+Tue Jul 12 12:44:57 2022: envp[5]: <USER=a967a038>
+Tue Jul 12 12:44:57 2022: envp[6]: <SSH_AGENT_PID=2229184>
+Tue Jul 12 12:44:57 2022: envp[7]: <XDG_SESSION_TYPE=x11>
+Tue Jul 12 12:44:57 2022: envp[8]: <SHLVL=1>
+Tue Jul 12 12:44:57 2022: envp[9]: <HOME=/home/a967a038>
+Tue Jul 12 12:44:57 2022: envp[10]: <OLDPWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree>
+Tue Jul 12 12:44:57 2022: envp[11]: <DESKTOP_SESSION=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[12]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[13]: <GRADLE_HOME=/home/a967a038/.sdkman/candidates/gradle/current>
+Tue Jul 12 12:44:57 2022: envp[14]: <GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:appmenu-gtk-module>
+Tue Jul 12 12:44:57 2022: envp[15]: <XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0>
+Tue Jul 12 12:44:57 2022: envp[16]: <MANAGERPID=2227683>
+Tue Jul 12 12:44:57 2022: envp[17]: <DBUS_STARTER_BUS_TYPE=session>
+Tue Jul 12 12:44:57 2022: envp[18]: <SONAR_TOKEN=61ff7f3f93564ba1dd37b5c22775799294ab785d>
+Tue Jul 12 12:44:57 2022: envp[19]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:57 2022: envp[20]: <COLORTERM=truecolor>
+Tue Jul 12 12:44:57 2022: envp[21]: <UBUNTU_MENUPROXY=1>
+Tue Jul 12 12:44:57 2022: envp[22]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Tue Jul 12 12:44:57 2022: envp[23]: <IM_CONFIG_PHASE=1>
+Tue Jul 12 12:44:57 2022: envp[24]: <LOGNAME=a967a038>
+Tue Jul 12 12:44:57 2022: envp[25]: <SDKMAN_CANDIDATES_API=https://api.sdkman.io/2>
+Tue Jul 12 12:44:57 2022: envp[26]: <JOURNAL_STREAM=9:11764889>
+Tue Jul 12 12:44:57 2022: envp[27]: <_=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue Jul 12 12:44:57 2022: envp[28]: <XDG_SESSION_CLASS=user>
+Tue Jul 12 12:44:57 2022: envp[29]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Tue Jul 12 12:44:57 2022: envp[30]: <WWW_HOME=http://www.ittc.ku.edu/>
+Tue Jul 12 12:44:57 2022: envp[31]: <TERM=xterm-256color>
+Tue Jul 12 12:44:57 2022: envp[32]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue Jul 12 12:44:57 2022: envp[33]: <PATH=~/Documents/pycharm-community-2022.1.1/bin/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/support/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/:~/Downloads/RESEARCH/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin:~/Downloads/RESEARCH/build-wrapper-linux-x86:/home/a967a038/.sdkman/candidates/gradle/current/bin:/home/a967a038/.cargo/bin:/usr/system/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin/X11:/usr/X11R6/bin:/sbin:/usr/sbin:/usr/local/sbin:/tools/matlab/bin>
+Tue Jul 12 12:44:57 2022: envp[34]: <SESSION_MANAGER=local/burdock.ittc.ku.edu:@/tmp/.ICE-unix/2229232,unix/burdock.ittc.ku.edu:/tmp/.ICE-unix/2229232>
+Tue Jul 12 12:44:57 2022: envp[35]: <SDKMAN_CANDIDATES_DIR=/home/a967a038/.sdkman/candidates>
+Tue Jul 12 12:44:57 2022: envp[36]: <GDM_LANG=en_US>
+Tue Jul 12 12:44:57 2022: envp[37]: <INVOCATION_ID=30383603d0214532aac85ee4e2afd5b4>
+Tue Jul 12 12:44:57 2022: envp[38]: <XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session3>
+Tue Jul 12 12:44:57 2022: envp[39]: <XDG_MENU_PREFIX=gnome->
+Tue Jul 12 12:44:57 2022: envp[40]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/042ea370_28b4_4c9a_8aee_872ad7d6f722>
+Tue Jul 12 12:44:57 2022: envp[41]: <XDG_RUNTIME_DIR=/run/user/100576833>
+Tue Jul 12 12:44:57 2022: envp[42]: <DISPLAY=:0>
+Tue Jul 12 12:44:57 2022: envp[43]: <DOMAINNAME=>
+Tue Jul 12 12:44:57 2022: envp[44]: <LANG=en_US.UTF-8>
+Tue Jul 12 12:44:57 2022: envp[45]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Tue Jul 12 12:44:57 2022: envp[46]: <XMODIFIERS=@im=ibus>
+Tue Jul 12 12:44:57 2022: envp[47]: <XDG_SESSION_DESKTOP=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[48]: <XAUTHORITY=/home/a967a038/.Xauthority>
+Tue Jul 12 12:44:57 2022: envp[49]: <GNOME_TERMINAL_SERVICE=:1.150>
+Tue Jul 12 12:44:57 2022: envp[50]: <SDKMAN_DIR=/home/a967a038/.sdkman>
+Tue Jul 12 12:44:57 2022: envp[51]: <SDKMAN_PLATFORM=linuxx64>
+Tue Jul 12 12:44:57 2022: envp[52]: <SSH_AUTH_SOCK=/tmp/ssh-yU2igr10WOt3/agent.2229105>
+Tue Jul 12 12:44:57 2022: envp[53]: <XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/a967a038>
+Tue Jul 12 12:44:57 2022: envp[54]: <SHELL=/bin/bash>
+Tue Jul 12 12:44:57 2022: envp[55]: <HOST=burdock.ittc.ku.edu>
+Tue Jul 12 12:44:57 2022: envp[56]: <QT_ACCESSIBILITY=1>
+Tue Jul 12 12:44:57 2022: envp[57]: <GDMSESSION=ubuntu>
+Tue Jul 12 12:44:57 2022: envp[58]: <GPG_AGENT_INFO=/run/user/100576833/gnupg/S.gpg-agent:0:1>
+Tue Jul 12 12:44:57 2022: envp[59]: <QT_IM_MODULE=ibus>
+Tue Jul 12 12:44:57 2022: envp[60]: <PWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: envp[61]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Tue Jul 12 12:44:57 2022: envp[62]: <PRINTER=duplex>
+Tue Jul 12 12:44:57 2022: envp[63]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:57 2022: envp[64]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Tue Jul 12 12:44:57 2022: envp[65]: <MANPATH=/usr/man:/usr/share/man:/usr/local/man:/usr/man/preformat:/usr/system/man:/usr/X11R6/man>
+Tue Jul 12 12:44:57 2022: envp[66]: <VTE_VERSION=6003>
+Tue Jul 12 12:44:57 2022: envp[67]: <LD_PRELOAD=>
+Tue Jul 12 12:44:57 2022: process created with pid: 2241920
+Tue Jul 12 12:44:57 2022: parent pid: 2241919
+Tue Jul 12 12:44:57 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:57 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:57 2022: argv[1]: <-quiet>
+Tue Jul 12 12:44:57 2022: argv[2]: <-I>
+Tue Jul 12 12:44:57 2022: argv[3]: <spec_qsort>
+Tue Jul 12 12:44:57 2022: argv[4]: <-imultiarch>
+Tue Jul 12 12:44:57 2022: argv[5]: <x86_64-linux-gnu>
+Tue Jul 12 12:44:57 2022: argv[6]: <-D_REENTRANT>
+Tue Jul 12 12:44:57 2022: argv[7]: <-D>
+Tue Jul 12 12:44:57 2022: argv[8]: <SPEC>
+Tue Jul 12 12:44:57 2022: argv[9]: <-D>
+Tue Jul 12 12:44:57 2022: argv[10]: <NDEBUG>
+Tue Jul 12 12:44:57 2022: argv[11]: <-D>
+Tue Jul 12 12:44:57 2022: argv[12]: <SPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[13]: <-D>
+Tue Jul 12 12:44:57 2022: argv[14]: <SPEC_OPENMP>
+Tue Jul 12 12:44:57 2022: argv[15]: <-D>
+Tue Jul 12 12:44:57 2022: argv[16]: <SPEC_LP64>
+Tue Jul 12 12:44:57 2022: argv[17]: <pflowup.c>
+Tue Jul 12 12:44:57 2022: argv[18]: <-quiet>
+Tue Jul 12 12:44:57 2022: argv[19]: <-dumpbase>
+Tue Jul 12 12:44:57 2022: argv[20]: <pflowup.c>
+Tue Jul 12 12:44:57 2022: argv[21]: <-m64>
+Tue Jul 12 12:44:57 2022: argv[22]: <-mtune=generic>
+Tue Jul 12 12:44:57 2022: argv[23]: <-march=x86-64>
+Tue Jul 12 12:44:57 2022: argv[24]: <-auxbase-strip>
+Tue Jul 12 12:44:57 2022: argv[25]: <pflowup.o>
+Tue Jul 12 12:44:57 2022: argv[26]: <-g>
+Tue Jul 12 12:44:57 2022: argv[27]: <-std=c99>
+Tue Jul 12 12:44:57 2022: argv[28]: <-fopenmp>
+Tue Jul 12 12:44:57 2022: argv[29]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:57 2022: argv[30]: <-fgnu89-inline>
+Tue Jul 12 12:44:57 2022: argv[31]: <-fasynchronous-unwind-tables>
+Tue Jul 12 12:44:57 2022: argv[32]: <-fstack-protector-strong>
+Tue Jul 12 12:44:57 2022: argv[33]: <-Wformat>
+Tue Jul 12 12:44:57 2022: argv[34]: <-Wformat-security>
+Tue Jul 12 12:44:57 2022: argv[35]: <-fstack-clash-protection>
+Tue Jul 12 12:44:57 2022: argv[36]: <-fcf-protection>
+Tue Jul 12 12:44:57 2022: argv[37]: <-o>
+Tue Jul 12 12:44:57 2022: argv[38]: </tmp/ccwmVMsA.s>
+Tue Jul 12 12:44:57 2022: skipping process with pid: 2241920
+Tue Jul 12 12:44:57 2022: process created with pid: 2241921
+Tue Jul 12 12:44:57 2022: parent pid: 2241919
+Tue Jul 12 12:44:57 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:57 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Tue Jul 12 12:44:57 2022: argv[0]: <as>
+Tue Jul 12 12:44:57 2022: argv[1]: <-I>
+Tue Jul 12 12:44:57 2022: argv[2]: <spec_qsort>
+Tue Jul 12 12:44:57 2022: argv[3]: <--64>
+Tue Jul 12 12:44:57 2022: argv[4]: <-o>
+Tue Jul 12 12:44:57 2022: argv[5]: <pflowup.o>
+Tue Jul 12 12:44:57 2022: argv[6]: </tmp/ccwmVMsA.s>
+Tue Jul 12 12:44:57 2022: skipping process with pid: 2241921
+Tue Jul 12 12:44:58 2022: process created with pid: 2241922
+Tue Jul 12 12:44:58 2022: parent pid: 2241894
+Tue Jul 12 12:44:58 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:58 2022: executable: </usr/bin/x86_64-linux-gnu-gcc-9>
+Tue Jul 12 12:44:58 2022: argv[0]: </usr/bin/gcc>
+Tue Jul 12 12:44:58 2022: argv[1]: <-std=c99>
+Tue Jul 12 12:44:58 2022: argv[2]: <-m64>
+Tue Jul 12 12:44:58 2022: argv[3]: <-c>
+Tue Jul 12 12:44:58 2022: argv[4]: <-o>
+Tue Jul 12 12:44:58 2022: argv[5]: <psimplex.o>
+Tue Jul 12 12:44:58 2022: argv[6]: <-DSPEC>
+Tue Jul 12 12:44:58 2022: argv[7]: <-DNDEBUG>
+Tue Jul 12 12:44:58 2022: argv[8]: <-Ispec_qsort>
+Tue Jul 12 12:44:58 2022: argv[9]: <-DSPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:58 2022: argv[10]: <-g>
+Tue Jul 12 12:44:58 2022: argv[11]: <-fopenmp>
+Tue Jul 12 12:44:58 2022: argv[12]: <-DSPEC_OPENMP>
+Tue Jul 12 12:44:58 2022: argv[13]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:58 2022: argv[14]: <-fgnu89-inline>
+Tue Jul 12 12:44:58 2022: argv[15]: <-DSPEC_LP64>
+Tue Jul 12 12:44:58 2022: argv[16]: <psimplex.c>
+Tue Jul 12 12:44:58 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.Cx0rUw>
+Tue Jul 12 12:44:58 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Tue Jul 12 12:44:58 2022: envp[2]: <SDKMAN_VERSION=5.13.1>
+Tue Jul 12 12:44:58 2022: envp[3]: <MAIL=/var/spool/mail/a967a038>
+Tue Jul 12 12:44:58 2022: envp[4]: <LANGUAGE=en_US>
+Tue Jul 12 12:44:58 2022: envp[5]: <USER=a967a038>
+Tue Jul 12 12:44:58 2022: envp[6]: <SSH_AGENT_PID=2229184>
+Tue Jul 12 12:44:58 2022: envp[7]: <XDG_SESSION_TYPE=x11>
+Tue Jul 12 12:44:58 2022: envp[8]: <SHLVL=1>
+Tue Jul 12 12:44:58 2022: envp[9]: <HOME=/home/a967a038>
+Tue Jul 12 12:44:58 2022: envp[10]: <OLDPWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree>
+Tue Jul 12 12:44:58 2022: envp[11]: <DESKTOP_SESSION=ubuntu>
+Tue Jul 12 12:44:58 2022: envp[12]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Tue Jul 12 12:44:58 2022: envp[13]: <GRADLE_HOME=/home/a967a038/.sdkman/candidates/gradle/current>
+Tue Jul 12 12:44:58 2022: envp[14]: <GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:appmenu-gtk-module>
+Tue Jul 12 12:44:58 2022: envp[15]: <XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0>
+Tue Jul 12 12:44:58 2022: envp[16]: <MANAGERPID=2227683>
+Tue Jul 12 12:44:58 2022: envp[17]: <DBUS_STARTER_BUS_TYPE=session>
+Tue Jul 12 12:44:58 2022: envp[18]: <SONAR_TOKEN=61ff7f3f93564ba1dd37b5c22775799294ab785d>
+Tue Jul 12 12:44:58 2022: envp[19]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:58 2022: envp[20]: <COLORTERM=truecolor>
+Tue Jul 12 12:44:58 2022: envp[21]: <UBUNTU_MENUPROXY=1>
+Tue Jul 12 12:44:58 2022: envp[22]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Tue Jul 12 12:44:58 2022: envp[23]: <IM_CONFIG_PHASE=1>
+Tue Jul 12 12:44:58 2022: envp[24]: <LOGNAME=a967a038>
+Tue Jul 12 12:44:58 2022: envp[25]: <SDKMAN_CANDIDATES_API=https://api.sdkman.io/2>
+Tue Jul 12 12:44:58 2022: envp[26]: <JOURNAL_STREAM=9:11764889>
+Tue Jul 12 12:44:58 2022: envp[27]: <_=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue Jul 12 12:44:58 2022: envp[28]: <XDG_SESSION_CLASS=user>
+Tue Jul 12 12:44:58 2022: envp[29]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Tue Jul 12 12:44:58 2022: envp[30]: <WWW_HOME=http://www.ittc.ku.edu/>
+Tue Jul 12 12:44:58 2022: envp[31]: <TERM=xterm-256color>
+Tue Jul 12 12:44:58 2022: envp[32]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue Jul 12 12:44:58 2022: envp[33]: <PATH=~/Documents/pycharm-community-2022.1.1/bin/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/support/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/:~/Downloads/RESEARCH/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin:~/Downloads/RESEARCH/build-wrapper-linux-x86:/home/a967a038/.sdkman/candidates/gradle/current/bin:/home/a967a038/.cargo/bin:/usr/system/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin/X11:/usr/X11R6/bin:/sbin:/usr/sbin:/usr/local/sbin:/tools/matlab/bin>
+Tue Jul 12 12:44:58 2022: envp[34]: <SESSION_MANAGER=local/burdock.ittc.ku.edu:@/tmp/.ICE-unix/2229232,unix/burdock.ittc.ku.edu:/tmp/.ICE-unix/2229232>
+Tue Jul 12 12:44:58 2022: envp[35]: <SDKMAN_CANDIDATES_DIR=/home/a967a038/.sdkman/candidates>
+Tue Jul 12 12:44:58 2022: envp[36]: <GDM_LANG=en_US>
+Tue Jul 12 12:44:58 2022: envp[37]: <INVOCATION_ID=30383603d0214532aac85ee4e2afd5b4>
+Tue Jul 12 12:44:58 2022: envp[38]: <XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session3>
+Tue Jul 12 12:44:58 2022: envp[39]: <XDG_MENU_PREFIX=gnome->
+Tue Jul 12 12:44:58 2022: envp[40]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/042ea370_28b4_4c9a_8aee_872ad7d6f722>
+Tue Jul 12 12:44:58 2022: envp[41]: <XDG_RUNTIME_DIR=/run/user/100576833>
+Tue Jul 12 12:44:58 2022: envp[42]: <DISPLAY=:0>
+Tue Jul 12 12:44:58 2022: envp[43]: <DOMAINNAME=>
+Tue Jul 12 12:44:58 2022: envp[44]: <LANG=en_US.UTF-8>
+Tue Jul 12 12:44:58 2022: envp[45]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Tue Jul 12 12:44:58 2022: envp[46]: <XMODIFIERS=@im=ibus>
+Tue Jul 12 12:44:58 2022: envp[47]: <XDG_SESSION_DESKTOP=ubuntu>
+Tue Jul 12 12:44:58 2022: envp[48]: <XAUTHORITY=/home/a967a038/.Xauthority>
+Tue Jul 12 12:44:58 2022: envp[49]: <GNOME_TERMINAL_SERVICE=:1.150>
+Tue Jul 12 12:44:58 2022: envp[50]: <SDKMAN_DIR=/home/a967a038/.sdkman>
+Tue Jul 12 12:44:58 2022: envp[51]: <SDKMAN_PLATFORM=linuxx64>
+Tue Jul 12 12:44:58 2022: envp[52]: <SSH_AUTH_SOCK=/tmp/ssh-yU2igr10WOt3/agent.2229105>
+Tue Jul 12 12:44:58 2022: envp[53]: <XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/a967a038>
+Tue Jul 12 12:44:58 2022: envp[54]: <SHELL=/bin/bash>
+Tue Jul 12 12:44:58 2022: envp[55]: <HOST=burdock.ittc.ku.edu>
+Tue Jul 12 12:44:58 2022: envp[56]: <QT_ACCESSIBILITY=1>
+Tue Jul 12 12:44:58 2022: envp[57]: <GDMSESSION=ubuntu>
+Tue Jul 12 12:44:58 2022: envp[58]: <GPG_AGENT_INFO=/run/user/100576833/gnupg/S.gpg-agent:0:1>
+Tue Jul 12 12:44:58 2022: envp[59]: <QT_IM_MODULE=ibus>
+Tue Jul 12 12:44:58 2022: envp[60]: <PWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:58 2022: envp[61]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Tue Jul 12 12:44:58 2022: envp[62]: <PRINTER=duplex>
+Tue Jul 12 12:44:58 2022: envp[63]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:58 2022: envp[64]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Tue Jul 12 12:44:58 2022: envp[65]: <MANPATH=/usr/man:/usr/share/man:/usr/local/man:/usr/man/preformat:/usr/system/man:/usr/X11R6/man>
+Tue Jul 12 12:44:58 2022: envp[66]: <VTE_VERSION=6003>
+Tue Jul 12 12:44:58 2022: envp[67]: <LD_PRELOAD=>
+Tue Jul 12 12:44:58 2022: process created with pid: 2241923
+Tue Jul 12 12:44:58 2022: parent pid: 2241922
+Tue Jul 12 12:44:58 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:58 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:58 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:58 2022: argv[1]: <-quiet>
+Tue Jul 12 12:44:58 2022: argv[2]: <-I>
+Tue Jul 12 12:44:58 2022: argv[3]: <spec_qsort>
+Tue Jul 12 12:44:58 2022: argv[4]: <-imultiarch>
+Tue Jul 12 12:44:58 2022: argv[5]: <x86_64-linux-gnu>
+Tue Jul 12 12:44:58 2022: argv[6]: <-D_REENTRANT>
+Tue Jul 12 12:44:58 2022: argv[7]: <-D>
+Tue Jul 12 12:44:58 2022: argv[8]: <SPEC>
+Tue Jul 12 12:44:58 2022: argv[9]: <-D>
+Tue Jul 12 12:44:58 2022: argv[10]: <NDEBUG>
+Tue Jul 12 12:44:58 2022: argv[11]: <-D>
+Tue Jul 12 12:44:58 2022: argv[12]: <SPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:58 2022: argv[13]: <-D>
+Tue Jul 12 12:44:58 2022: argv[14]: <SPEC_OPENMP>
+Tue Jul 12 12:44:58 2022: argv[15]: <-D>
+Tue Jul 12 12:44:58 2022: argv[16]: <SPEC_LP64>
+Tue Jul 12 12:44:58 2022: argv[17]: <psimplex.c>
+Tue Jul 12 12:44:58 2022: argv[18]: <-quiet>
+Tue Jul 12 12:44:58 2022: argv[19]: <-dumpbase>
+Tue Jul 12 12:44:58 2022: argv[20]: <psimplex.c>
+Tue Jul 12 12:44:58 2022: argv[21]: <-m64>
+Tue Jul 12 12:44:58 2022: argv[22]: <-mtune=generic>
+Tue Jul 12 12:44:58 2022: argv[23]: <-march=x86-64>
+Tue Jul 12 12:44:58 2022: argv[24]: <-auxbase-strip>
+Tue Jul 12 12:44:58 2022: argv[25]: <psimplex.o>
+Tue Jul 12 12:44:58 2022: argv[26]: <-g>
+Tue Jul 12 12:44:58 2022: argv[27]: <-std=c99>
+Tue Jul 12 12:44:58 2022: argv[28]: <-fopenmp>
+Tue Jul 12 12:44:58 2022: argv[29]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:58 2022: argv[30]: <-fgnu89-inline>
+Tue Jul 12 12:44:58 2022: argv[31]: <-fasynchronous-unwind-tables>
+Tue Jul 12 12:44:58 2022: argv[32]: <-fstack-protector-strong>
+Tue Jul 12 12:44:58 2022: argv[33]: <-Wformat>
+Tue Jul 12 12:44:58 2022: argv[34]: <-Wformat-security>
+Tue Jul 12 12:44:58 2022: argv[35]: <-fstack-clash-protection>
+Tue Jul 12 12:44:58 2022: argv[36]: <-fcf-protection>
+Tue Jul 12 12:44:58 2022: argv[37]: <-o>
+Tue Jul 12 12:44:58 2022: argv[38]: </tmp/ccG9DhCQ.s>
+Tue Jul 12 12:44:58 2022: skipping process with pid: 2241923
+Tue Jul 12 12:44:58 2022: process created with pid: 2241924
+Tue Jul 12 12:44:58 2022: parent pid: 2241922
+Tue Jul 12 12:44:58 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:58 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Tue Jul 12 12:44:58 2022: argv[0]: <as>
+Tue Jul 12 12:44:58 2022: argv[1]: <-I>
+Tue Jul 12 12:44:58 2022: argv[2]: <spec_qsort>
+Tue Jul 12 12:44:58 2022: argv[3]: <--64>
+Tue Jul 12 12:44:58 2022: argv[4]: <-o>
+Tue Jul 12 12:44:58 2022: argv[5]: <psimplex.o>
+Tue Jul 12 12:44:58 2022: argv[6]: </tmp/ccG9DhCQ.s>
+Tue Jul 12 12:44:58 2022: skipping process with pid: 2241924
+Tue Jul 12 12:44:58 2022: process created with pid: 2241925
+Tue Jul 12 12:44:58 2022: parent pid: 2241894
+Tue Jul 12 12:44:58 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:58 2022: executable: </usr/bin/x86_64-linux-gnu-gcc-9>
+Tue Jul 12 12:44:58 2022: argv[0]: </usr/bin/gcc>
+Tue Jul 12 12:44:58 2022: argv[1]: <-std=c99>
+Tue Jul 12 12:44:58 2022: argv[2]: <-m64>
+Tue Jul 12 12:44:58 2022: argv[3]: <-c>
+Tue Jul 12 12:44:58 2022: argv[4]: <-o>
+Tue Jul 12 12:44:58 2022: argv[5]: <pbeampp.o>
+Tue Jul 12 12:44:58 2022: argv[6]: <-DSPEC>
+Tue Jul 12 12:44:58 2022: argv[7]: <-DNDEBUG>
+Tue Jul 12 12:44:58 2022: argv[8]: <-Ispec_qsort>
+Tue Jul 12 12:44:58 2022: argv[9]: <-DSPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:58 2022: argv[10]: <-g>
+Tue Jul 12 12:44:58 2022: argv[11]: <-fopenmp>
+Tue Jul 12 12:44:58 2022: argv[12]: <-DSPEC_OPENMP>
+Tue Jul 12 12:44:58 2022: argv[13]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:58 2022: argv[14]: <-fgnu89-inline>
+Tue Jul 12 12:44:58 2022: argv[15]: <-DSPEC_LP64>
+Tue Jul 12 12:44:58 2022: argv[16]: <pbeampp.c>
+Tue Jul 12 12:44:58 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.Cx0rUw>
+Tue Jul 12 12:44:58 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Tue Jul 12 12:44:58 2022: envp[2]: <SDKMAN_VERSION=5.13.1>
+Tue Jul 12 12:44:58 2022: envp[3]: <MAIL=/var/spool/mail/a967a038>
+Tue Jul 12 12:44:58 2022: envp[4]: <LANGUAGE=en_US>
+Tue Jul 12 12:44:58 2022: envp[5]: <USER=a967a038>
+Tue Jul 12 12:44:58 2022: envp[6]: <SSH_AGENT_PID=2229184>
+Tue Jul 12 12:44:58 2022: envp[7]: <XDG_SESSION_TYPE=x11>
+Tue Jul 12 12:44:58 2022: envp[8]: <SHLVL=1>
+Tue Jul 12 12:44:58 2022: envp[9]: <HOME=/home/a967a038>
+Tue Jul 12 12:44:58 2022: envp[10]: <OLDPWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree>
+Tue Jul 12 12:44:58 2022: envp[11]: <DESKTOP_SESSION=ubuntu>
+Tue Jul 12 12:44:58 2022: envp[12]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Tue Jul 12 12:44:58 2022: envp[13]: <GRADLE_HOME=/home/a967a038/.sdkman/candidates/gradle/current>
+Tue Jul 12 12:44:58 2022: envp[14]: <GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:appmenu-gtk-module>
+Tue Jul 12 12:44:58 2022: envp[15]: <XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0>
+Tue Jul 12 12:44:58 2022: envp[16]: <MANAGERPID=2227683>
+Tue Jul 12 12:44:58 2022: envp[17]: <DBUS_STARTER_BUS_TYPE=session>
+Tue Jul 12 12:44:58 2022: envp[18]: <SONAR_TOKEN=61ff7f3f93564ba1dd37b5c22775799294ab785d>
+Tue Jul 12 12:44:58 2022: envp[19]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:58 2022: envp[20]: <COLORTERM=truecolor>
+Tue Jul 12 12:44:58 2022: envp[21]: <UBUNTU_MENUPROXY=1>
+Tue Jul 12 12:44:58 2022: envp[22]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Tue Jul 12 12:44:58 2022: envp[23]: <IM_CONFIG_PHASE=1>
+Tue Jul 12 12:44:58 2022: envp[24]: <LOGNAME=a967a038>
+Tue Jul 12 12:44:58 2022: envp[25]: <SDKMAN_CANDIDATES_API=https://api.sdkman.io/2>
+Tue Jul 12 12:44:58 2022: envp[26]: <JOURNAL_STREAM=9:11764889>
+Tue Jul 12 12:44:58 2022: envp[27]: <_=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue Jul 12 12:44:58 2022: envp[28]: <XDG_SESSION_CLASS=user>
+Tue Jul 12 12:44:58 2022: envp[29]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Tue Jul 12 12:44:58 2022: envp[30]: <WWW_HOME=http://www.ittc.ku.edu/>
+Tue Jul 12 12:44:58 2022: envp[31]: <TERM=xterm-256color>
+Tue Jul 12 12:44:58 2022: envp[32]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue Jul 12 12:44:58 2022: envp[33]: <PATH=~/Documents/pycharm-community-2022.1.1/bin/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/support/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/:~/Downloads/RESEARCH/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin:~/Downloads/RESEARCH/build-wrapper-linux-x86:/home/a967a038/.sdkman/candidates/gradle/current/bin:/home/a967a038/.cargo/bin:/usr/system/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin/X11:/usr/X11R6/bin:/sbin:/usr/sbin:/usr/local/sbin:/tools/matlab/bin>
+Tue Jul 12 12:44:58 2022: envp[34]: <SESSION_MANAGER=local/burdock.ittc.ku.edu:@/tmp/.ICE-unix/2229232,unix/burdock.ittc.ku.edu:/tmp/.ICE-unix/2229232>
+Tue Jul 12 12:44:58 2022: envp[35]: <SDKMAN_CANDIDATES_DIR=/home/a967a038/.sdkman/candidates>
+Tue Jul 12 12:44:58 2022: envp[36]: <GDM_LANG=en_US>
+Tue Jul 12 12:44:58 2022: envp[37]: <INVOCATION_ID=30383603d0214532aac85ee4e2afd5b4>
+Tue Jul 12 12:44:58 2022: envp[38]: <XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session3>
+Tue Jul 12 12:44:58 2022: envp[39]: <XDG_MENU_PREFIX=gnome->
+Tue Jul 12 12:44:58 2022: envp[40]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/042ea370_28b4_4c9a_8aee_872ad7d6f722>
+Tue Jul 12 12:44:58 2022: envp[41]: <XDG_RUNTIME_DIR=/run/user/100576833>
+Tue Jul 12 12:44:58 2022: envp[42]: <DISPLAY=:0>
+Tue Jul 12 12:44:58 2022: envp[43]: <DOMAINNAME=>
+Tue Jul 12 12:44:58 2022: envp[44]: <LANG=en_US.UTF-8>
+Tue Jul 12 12:44:58 2022: envp[45]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Tue Jul 12 12:44:58 2022: envp[46]: <XMODIFIERS=@im=ibus>
+Tue Jul 12 12:44:58 2022: envp[47]: <XDG_SESSION_DESKTOP=ubuntu>
+Tue Jul 12 12:44:58 2022: envp[48]: <XAUTHORITY=/home/a967a038/.Xauthority>
+Tue Jul 12 12:44:58 2022: envp[49]: <GNOME_TERMINAL_SERVICE=:1.150>
+Tue Jul 12 12:44:58 2022: envp[50]: <SDKMAN_DIR=/home/a967a038/.sdkman>
+Tue Jul 12 12:44:58 2022: envp[51]: <SDKMAN_PLATFORM=linuxx64>
+Tue Jul 12 12:44:58 2022: envp[52]: <SSH_AUTH_SOCK=/tmp/ssh-yU2igr10WOt3/agent.2229105>
+Tue Jul 12 12:44:58 2022: envp[53]: <XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/a967a038>
+Tue Jul 12 12:44:58 2022: envp[54]: <SHELL=/bin/bash>
+Tue Jul 12 12:44:58 2022: envp[55]: <HOST=burdock.ittc.ku.edu>
+Tue Jul 12 12:44:58 2022: envp[56]: <QT_ACCESSIBILITY=1>
+Tue Jul 12 12:44:58 2022: envp[57]: <GDMSESSION=ubuntu>
+Tue Jul 12 12:44:58 2022: envp[58]: <GPG_AGENT_INFO=/run/user/100576833/gnupg/S.gpg-agent:0:1>
+Tue Jul 12 12:44:58 2022: envp[59]: <QT_IM_MODULE=ibus>
+Tue Jul 12 12:44:58 2022: envp[60]: <PWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:58 2022: envp[61]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Tue Jul 12 12:44:58 2022: envp[62]: <PRINTER=duplex>
+Tue Jul 12 12:44:58 2022: envp[63]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:58 2022: envp[64]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Tue Jul 12 12:44:58 2022: envp[65]: <MANPATH=/usr/man:/usr/share/man:/usr/local/man:/usr/man/preformat:/usr/system/man:/usr/X11R6/man>
+Tue Jul 12 12:44:58 2022: envp[66]: <VTE_VERSION=6003>
+Tue Jul 12 12:44:58 2022: envp[67]: <LD_PRELOAD=>
+Tue Jul 12 12:44:58 2022: process created with pid: 2241926
+Tue Jul 12 12:44:58 2022: parent pid: 2241925
+Tue Jul 12 12:44:58 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:58 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:58 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:58 2022: argv[1]: <-quiet>
+Tue Jul 12 12:44:58 2022: argv[2]: <-I>
+Tue Jul 12 12:44:58 2022: argv[3]: <spec_qsort>
+Tue Jul 12 12:44:58 2022: argv[4]: <-imultiarch>
+Tue Jul 12 12:44:58 2022: argv[5]: <x86_64-linux-gnu>
+Tue Jul 12 12:44:58 2022: argv[6]: <-D_REENTRANT>
+Tue Jul 12 12:44:58 2022: argv[7]: <-D>
+Tue Jul 12 12:44:58 2022: argv[8]: <SPEC>
+Tue Jul 12 12:44:58 2022: argv[9]: <-D>
+Tue Jul 12 12:44:58 2022: argv[10]: <NDEBUG>
+Tue Jul 12 12:44:58 2022: argv[11]: <-D>
+Tue Jul 12 12:44:58 2022: argv[12]: <SPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:58 2022: argv[13]: <-D>
+Tue Jul 12 12:44:58 2022: argv[14]: <SPEC_OPENMP>
+Tue Jul 12 12:44:58 2022: argv[15]: <-D>
+Tue Jul 12 12:44:58 2022: argv[16]: <SPEC_LP64>
+Tue Jul 12 12:44:58 2022: argv[17]: <pbeampp.c>
+Tue Jul 12 12:44:58 2022: argv[18]: <-quiet>
+Tue Jul 12 12:44:58 2022: argv[19]: <-dumpbase>
+Tue Jul 12 12:44:58 2022: argv[20]: <pbeampp.c>
+Tue Jul 12 12:44:58 2022: argv[21]: <-m64>
+Tue Jul 12 12:44:58 2022: argv[22]: <-mtune=generic>
+Tue Jul 12 12:44:58 2022: argv[23]: <-march=x86-64>
+Tue Jul 12 12:44:58 2022: argv[24]: <-auxbase-strip>
+Tue Jul 12 12:44:58 2022: argv[25]: <pbeampp.o>
+Tue Jul 12 12:44:58 2022: argv[26]: <-g>
+Tue Jul 12 12:44:58 2022: argv[27]: <-std=c99>
+Tue Jul 12 12:44:58 2022: argv[28]: <-fopenmp>
+Tue Jul 12 12:44:58 2022: argv[29]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:58 2022: argv[30]: <-fgnu89-inline>
+Tue Jul 12 12:44:58 2022: argv[31]: <-fasynchronous-unwind-tables>
+Tue Jul 12 12:44:58 2022: argv[32]: <-fstack-protector-strong>
+Tue Jul 12 12:44:58 2022: argv[33]: <-Wformat>
+Tue Jul 12 12:44:58 2022: argv[34]: <-Wformat-security>
+Tue Jul 12 12:44:58 2022: argv[35]: <-fstack-clash-protection>
+Tue Jul 12 12:44:58 2022: argv[36]: <-fcf-protection>
+Tue Jul 12 12:44:58 2022: argv[37]: <-o>
+Tue Jul 12 12:44:58 2022: argv[38]: </tmp/ccgEhBM4.s>
+Tue Jul 12 12:44:58 2022: skipping process with pid: 2241926
+Tue Jul 12 12:44:58 2022: process created with pid: 2241927
+Tue Jul 12 12:44:58 2022: parent pid: 2241925
+Tue Jul 12 12:44:58 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:58 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Tue Jul 12 12:44:58 2022: argv[0]: <as>
+Tue Jul 12 12:44:58 2022: argv[1]: <-I>
+Tue Jul 12 12:44:58 2022: argv[2]: <spec_qsort>
+Tue Jul 12 12:44:58 2022: argv[3]: <--64>
+Tue Jul 12 12:44:58 2022: argv[4]: <-o>
+Tue Jul 12 12:44:58 2022: argv[5]: <pbeampp.o>
+Tue Jul 12 12:44:58 2022: argv[6]: </tmp/ccgEhBM4.s>
+Tue Jul 12 12:44:58 2022: skipping process with pid: 2241927
+Tue Jul 12 12:44:58 2022: process created with pid: 2241928
+Tue Jul 12 12:44:58 2022: parent pid: 2241894
+Tue Jul 12 12:44:58 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:58 2022: executable: </usr/bin/x86_64-linux-gnu-gcc-9>
+Tue Jul 12 12:44:58 2022: argv[0]: </usr/bin/gcc>
+Tue Jul 12 12:44:58 2022: argv[1]: <-std=c99>
+Tue Jul 12 12:44:58 2022: argv[2]: <-m64>
+Tue Jul 12 12:44:58 2022: argv[3]: <-c>
+Tue Jul 12 12:44:58 2022: argv[4]: <-o>
+Tue Jul 12 12:44:58 2022: argv[5]: <spec_qsort/spec_qsort.o>
+Tue Jul 12 12:44:58 2022: argv[6]: <-DSPEC>
+Tue Jul 12 12:44:58 2022: argv[7]: <-DNDEBUG>
+Tue Jul 12 12:44:58 2022: argv[8]: <-Ispec_qsort>
+Tue Jul 12 12:44:58 2022: argv[9]: <-DSPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:58 2022: argv[10]: <-g>
+Tue Jul 12 12:44:58 2022: argv[11]: <-fopenmp>
+Tue Jul 12 12:44:58 2022: argv[12]: <-DSPEC_OPENMP>
+Tue Jul 12 12:44:58 2022: argv[13]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:58 2022: argv[14]: <-fgnu89-inline>
+Tue Jul 12 12:44:58 2022: argv[15]: <-DSPEC_LP64>
+Tue Jul 12 12:44:58 2022: argv[16]: <spec_qsort/spec_qsort.c>
+Tue Jul 12 12:44:58 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.Cx0rUw>
+Tue Jul 12 12:44:58 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Tue Jul 12 12:44:58 2022: envp[2]: <SDKMAN_VERSION=5.13.1>
+Tue Jul 12 12:44:58 2022: envp[3]: <MAIL=/var/spool/mail/a967a038>
+Tue Jul 12 12:44:58 2022: envp[4]: <LANGUAGE=en_US>
+Tue Jul 12 12:44:58 2022: envp[5]: <USER=a967a038>
+Tue Jul 12 12:44:58 2022: envp[6]: <SSH_AGENT_PID=2229184>
+Tue Jul 12 12:44:58 2022: envp[7]: <XDG_SESSION_TYPE=x11>
+Tue Jul 12 12:44:58 2022: envp[8]: <SHLVL=1>
+Tue Jul 12 12:44:58 2022: envp[9]: <HOME=/home/a967a038>
+Tue Jul 12 12:44:58 2022: envp[10]: <OLDPWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree>
+Tue Jul 12 12:44:58 2022: envp[11]: <DESKTOP_SESSION=ubuntu>
+Tue Jul 12 12:44:58 2022: envp[12]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Tue Jul 12 12:44:58 2022: envp[13]: <GRADLE_HOME=/home/a967a038/.sdkman/candidates/gradle/current>
+Tue Jul 12 12:44:58 2022: envp[14]: <GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:appmenu-gtk-module>
+Tue Jul 12 12:44:58 2022: envp[15]: <XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0>
+Tue Jul 12 12:44:58 2022: envp[16]: <MANAGERPID=2227683>
+Tue Jul 12 12:44:58 2022: envp[17]: <DBUS_STARTER_BUS_TYPE=session>
+Tue Jul 12 12:44:58 2022: envp[18]: <SONAR_TOKEN=61ff7f3f93564ba1dd37b5c22775799294ab785d>
+Tue Jul 12 12:44:58 2022: envp[19]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:58 2022: envp[20]: <COLORTERM=truecolor>
+Tue Jul 12 12:44:58 2022: envp[21]: <UBUNTU_MENUPROXY=1>
+Tue Jul 12 12:44:58 2022: envp[22]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Tue Jul 12 12:44:58 2022: envp[23]: <IM_CONFIG_PHASE=1>
+Tue Jul 12 12:44:58 2022: envp[24]: <LOGNAME=a967a038>
+Tue Jul 12 12:44:58 2022: envp[25]: <SDKMAN_CANDIDATES_API=https://api.sdkman.io/2>
+Tue Jul 12 12:44:58 2022: envp[26]: <JOURNAL_STREAM=9:11764889>
+Tue Jul 12 12:44:58 2022: envp[27]: <_=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue Jul 12 12:44:58 2022: envp[28]: <XDG_SESSION_CLASS=user>
+Tue Jul 12 12:44:58 2022: envp[29]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Tue Jul 12 12:44:58 2022: envp[30]: <WWW_HOME=http://www.ittc.ku.edu/>
+Tue Jul 12 12:44:58 2022: envp[31]: <TERM=xterm-256color>
+Tue Jul 12 12:44:58 2022: envp[32]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue Jul 12 12:44:58 2022: envp[33]: <PATH=~/Documents/pycharm-community-2022.1.1/bin/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/support/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/:~/Downloads/RESEARCH/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin:~/Downloads/RESEARCH/build-wrapper-linux-x86:/home/a967a038/.sdkman/candidates/gradle/current/bin:/home/a967a038/.cargo/bin:/usr/system/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin/X11:/usr/X11R6/bin:/sbin:/usr/sbin:/usr/local/sbin:/tools/matlab/bin>
+Tue Jul 12 12:44:58 2022: envp[34]: <SESSION_MANAGER=local/burdock.ittc.ku.edu:@/tmp/.ICE-unix/2229232,unix/burdock.ittc.ku.edu:/tmp/.ICE-unix/2229232>
+Tue Jul 12 12:44:58 2022: envp[35]: <SDKMAN_CANDIDATES_DIR=/home/a967a038/.sdkman/candidates>
+Tue Jul 12 12:44:58 2022: envp[36]: <GDM_LANG=en_US>
+Tue Jul 12 12:44:58 2022: envp[37]: <INVOCATION_ID=30383603d0214532aac85ee4e2afd5b4>
+Tue Jul 12 12:44:58 2022: envp[38]: <XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session3>
+Tue Jul 12 12:44:58 2022: envp[39]: <XDG_MENU_PREFIX=gnome->
+Tue Jul 12 12:44:58 2022: envp[40]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/042ea370_28b4_4c9a_8aee_872ad7d6f722>
+Tue Jul 12 12:44:58 2022: envp[41]: <XDG_RUNTIME_DIR=/run/user/100576833>
+Tue Jul 12 12:44:58 2022: envp[42]: <DISPLAY=:0>
+Tue Jul 12 12:44:58 2022: envp[43]: <DOMAINNAME=>
+Tue Jul 12 12:44:58 2022: envp[44]: <LANG=en_US.UTF-8>
+Tue Jul 12 12:44:58 2022: envp[45]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Tue Jul 12 12:44:58 2022: envp[46]: <XMODIFIERS=@im=ibus>
+Tue Jul 12 12:44:58 2022: envp[47]: <XDG_SESSION_DESKTOP=ubuntu>
+Tue Jul 12 12:44:58 2022: envp[48]: <XAUTHORITY=/home/a967a038/.Xauthority>
+Tue Jul 12 12:44:58 2022: envp[49]: <GNOME_TERMINAL_SERVICE=:1.150>
+Tue Jul 12 12:44:58 2022: envp[50]: <SDKMAN_DIR=/home/a967a038/.sdkman>
+Tue Jul 12 12:44:58 2022: envp[51]: <SDKMAN_PLATFORM=linuxx64>
+Tue Jul 12 12:44:58 2022: envp[52]: <SSH_AUTH_SOCK=/tmp/ssh-yU2igr10WOt3/agent.2229105>
+Tue Jul 12 12:44:58 2022: envp[53]: <XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/a967a038>
+Tue Jul 12 12:44:58 2022: envp[54]: <SHELL=/bin/bash>
+Tue Jul 12 12:44:58 2022: envp[55]: <HOST=burdock.ittc.ku.edu>
+Tue Jul 12 12:44:58 2022: envp[56]: <QT_ACCESSIBILITY=1>
+Tue Jul 12 12:44:58 2022: envp[57]: <GDMSESSION=ubuntu>
+Tue Jul 12 12:44:58 2022: envp[58]: <GPG_AGENT_INFO=/run/user/100576833/gnupg/S.gpg-agent:0:1>
+Tue Jul 12 12:44:58 2022: envp[59]: <QT_IM_MODULE=ibus>
+Tue Jul 12 12:44:58 2022: envp[60]: <PWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:58 2022: envp[61]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Tue Jul 12 12:44:58 2022: envp[62]: <PRINTER=duplex>
+Tue Jul 12 12:44:58 2022: envp[63]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:58 2022: envp[64]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Tue Jul 12 12:44:58 2022: envp[65]: <MANPATH=/usr/man:/usr/share/man:/usr/local/man:/usr/man/preformat:/usr/system/man:/usr/X11R6/man>
+Tue Jul 12 12:44:58 2022: envp[66]: <VTE_VERSION=6003>
+Tue Jul 12 12:44:58 2022: envp[67]: <LD_PRELOAD=>
+Tue Jul 12 12:44:58 2022: process created with pid: 2241929
+Tue Jul 12 12:44:58 2022: parent pid: 2241928
+Tue Jul 12 12:44:58 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:58 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:58 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1>
+Tue Jul 12 12:44:58 2022: argv[1]: <-quiet>
+Tue Jul 12 12:44:58 2022: argv[2]: <-I>
+Tue Jul 12 12:44:58 2022: argv[3]: <spec_qsort>
+Tue Jul 12 12:44:58 2022: argv[4]: <-imultiarch>
+Tue Jul 12 12:44:58 2022: argv[5]: <x86_64-linux-gnu>
+Tue Jul 12 12:44:58 2022: argv[6]: <-D_REENTRANT>
+Tue Jul 12 12:44:58 2022: argv[7]: <-D>
+Tue Jul 12 12:44:58 2022: argv[8]: <SPEC>
+Tue Jul 12 12:44:58 2022: argv[9]: <-D>
+Tue Jul 12 12:44:58 2022: argv[10]: <NDEBUG>
+Tue Jul 12 12:44:58 2022: argv[11]: <-D>
+Tue Jul 12 12:44:58 2022: argv[12]: <SPEC_AUTO_SUPPRESS_OPENMP>
+Tue Jul 12 12:44:58 2022: argv[13]: <-D>
+Tue Jul 12 12:44:58 2022: argv[14]: <SPEC_OPENMP>
+Tue Jul 12 12:44:58 2022: argv[15]: <-D>
+Tue Jul 12 12:44:58 2022: argv[16]: <SPEC_LP64>
+Tue Jul 12 12:44:58 2022: argv[17]: <spec_qsort/spec_qsort.c>
+Tue Jul 12 12:44:58 2022: argv[18]: <-quiet>
+Tue Jul 12 12:44:58 2022: argv[19]: <-dumpbase>
+Tue Jul 12 12:44:58 2022: argv[20]: <spec_qsort.c>
+Tue Jul 12 12:44:58 2022: argv[21]: <-m64>
+Tue Jul 12 12:44:58 2022: argv[22]: <-mtune=generic>
+Tue Jul 12 12:44:58 2022: argv[23]: <-march=x86-64>
+Tue Jul 12 12:44:58 2022: argv[24]: <-auxbase-strip>
+Tue Jul 12 12:44:58 2022: argv[25]: <spec_qsort/spec_qsort.o>
+Tue Jul 12 12:44:58 2022: argv[26]: <-g>
+Tue Jul 12 12:44:58 2022: argv[27]: <-std=c99>
+Tue Jul 12 12:44:58 2022: argv[28]: <-fopenmp>
+Tue Jul 12 12:44:58 2022: argv[29]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:58 2022: argv[30]: <-fgnu89-inline>
+Tue Jul 12 12:44:58 2022: argv[31]: <-fasynchronous-unwind-tables>
+Tue Jul 12 12:44:58 2022: argv[32]: <-fstack-protector-strong>
+Tue Jul 12 12:44:58 2022: argv[33]: <-Wformat>
+Tue Jul 12 12:44:58 2022: argv[34]: <-Wformat-security>
+Tue Jul 12 12:44:58 2022: argv[35]: <-fstack-clash-protection>
+Tue Jul 12 12:44:58 2022: argv[36]: <-fcf-protection>
+Tue Jul 12 12:44:58 2022: argv[37]: <-o>
+Tue Jul 12 12:44:58 2022: argv[38]: </tmp/ccIz1DZh.s>
+Tue Jul 12 12:44:58 2022: skipping process with pid: 2241929
+Tue Jul 12 12:44:58 2022: process created with pid: 2241930
+Tue Jul 12 12:44:58 2022: parent pid: 2241928
+Tue Jul 12 12:44:58 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:58 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Tue Jul 12 12:44:58 2022: argv[0]: <as>
+Tue Jul 12 12:44:58 2022: argv[1]: <-I>
+Tue Jul 12 12:44:58 2022: argv[2]: <spec_qsort>
+Tue Jul 12 12:44:58 2022: argv[3]: <--64>
+Tue Jul 12 12:44:58 2022: argv[4]: <-o>
+Tue Jul 12 12:44:58 2022: argv[5]: <spec_qsort/spec_qsort.o>
+Tue Jul 12 12:44:58 2022: argv[6]: </tmp/ccIz1DZh.s>
+Tue Jul 12 12:44:58 2022: skipping process with pid: 2241930
+Tue Jul 12 12:44:58 2022: process created with pid: 2241931
+Tue Jul 12 12:44:58 2022: parent pid: 2241894
+Tue Jul 12 12:44:58 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:58 2022: executable: </usr/bin/x86_64-linux-gnu-gcc-9>
+Tue Jul 12 12:44:58 2022: argv[0]: </usr/bin/gcc>
+Tue Jul 12 12:44:58 2022: argv[1]: <-std=c99>
+Tue Jul 12 12:44:58 2022: argv[2]: <-m64>
+Tue Jul 12 12:44:58 2022: argv[3]: <-g>
+Tue Jul 12 12:44:58 2022: argv[4]: <-fopenmp>
+Tue Jul 12 12:44:58 2022: argv[5]: <-DSPEC_OPENMP>
+Tue Jul 12 12:44:58 2022: argv[6]: <-fno-strict-aliasing>
+Tue Jul 12 12:44:58 2022: argv[7]: <-fgnu89-inline>
+Tue Jul 12 12:44:58 2022: argv[8]: <mcf.o>
+Tue Jul 12 12:44:58 2022: argv[9]: <mcfutil.o>
+Tue Jul 12 12:44:58 2022: argv[10]: <readmin.o>
+Tue Jul 12 12:44:58 2022: argv[11]: <implicit.o>
+Tue Jul 12 12:44:58 2022: argv[12]: <pstart.o>
+Tue Jul 12 12:44:58 2022: argv[13]: <output.o>
+Tue Jul 12 12:44:58 2022: argv[14]: <treeup.o>
+Tue Jul 12 12:44:58 2022: argv[15]: <pbla.o>
+Tue Jul 12 12:44:58 2022: argv[16]: <pflowup.o>
+Tue Jul 12 12:44:58 2022: argv[17]: <psimplex.o>
+Tue Jul 12 12:44:58 2022: argv[18]: <pbeampp.o>
+Tue Jul 12 12:44:58 2022: argv[19]: <spec_qsort/spec_qsort.o>
+Tue Jul 12 12:44:58 2022: argv[20]: <-lm>
+Tue Jul 12 12:44:58 2022: argv[21]: <-o>
+Tue Jul 12 12:44:58 2022: argv[22]: <mcf_s>
+Tue Jul 12 12:44:58 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.Cx0rUw>
+Tue Jul 12 12:44:58 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Tue Jul 12 12:44:58 2022: envp[2]: <SDKMAN_VERSION=5.13.1>
+Tue Jul 12 12:44:58 2022: envp[3]: <MAIL=/var/spool/mail/a967a038>
+Tue Jul 12 12:44:58 2022: envp[4]: <LANGUAGE=en_US>
+Tue Jul 12 12:44:58 2022: envp[5]: <USER=a967a038>
+Tue Jul 12 12:44:58 2022: envp[6]: <SSH_AGENT_PID=2229184>
+Tue Jul 12 12:44:58 2022: envp[7]: <XDG_SESSION_TYPE=x11>
+Tue Jul 12 12:44:58 2022: envp[8]: <SHLVL=1>
+Tue Jul 12 12:44:58 2022: envp[9]: <HOME=/home/a967a038>
+Tue Jul 12 12:44:58 2022: envp[10]: <OLDPWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree>
+Tue Jul 12 12:44:58 2022: envp[11]: <DESKTOP_SESSION=ubuntu>
+Tue Jul 12 12:44:58 2022: envp[12]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Tue Jul 12 12:44:58 2022: envp[13]: <GRADLE_HOME=/home/a967a038/.sdkman/candidates/gradle/current>
+Tue Jul 12 12:44:58 2022: envp[14]: <GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:appmenu-gtk-module>
+Tue Jul 12 12:44:58 2022: envp[15]: <XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0>
+Tue Jul 12 12:44:58 2022: envp[16]: <MANAGERPID=2227683>
+Tue Jul 12 12:44:58 2022: envp[17]: <DBUS_STARTER_BUS_TYPE=session>
+Tue Jul 12 12:44:58 2022: envp[18]: <SONAR_TOKEN=61ff7f3f93564ba1dd37b5c22775799294ab785d>
+Tue Jul 12 12:44:58 2022: envp[19]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:58 2022: envp[20]: <COLORTERM=truecolor>
+Tue Jul 12 12:44:58 2022: envp[21]: <UBUNTU_MENUPROXY=1>
+Tue Jul 12 12:44:58 2022: envp[22]: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Tue Jul 12 12:44:58 2022: envp[23]: <IM_CONFIG_PHASE=1>
+Tue Jul 12 12:44:58 2022: envp[24]: <LOGNAME=a967a038>
+Tue Jul 12 12:44:58 2022: envp[25]: <SDKMAN_CANDIDATES_API=https://api.sdkman.io/2>
+Tue Jul 12 12:44:58 2022: envp[26]: <JOURNAL_STREAM=9:11764889>
+Tue Jul 12 12:44:58 2022: envp[27]: <_=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue Jul 12 12:44:58 2022: envp[28]: <XDG_SESSION_CLASS=user>
+Tue Jul 12 12:44:58 2022: envp[29]: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Tue Jul 12 12:44:58 2022: envp[30]: <WWW_HOME=http://www.ittc.ku.edu/>
+Tue Jul 12 12:44:58 2022: envp[31]: <TERM=xterm-256color>
+Tue Jul 12 12:44:58 2022: envp[32]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue Jul 12 12:44:58 2022: envp[33]: <PATH=~/Documents/pycharm-community-2022.1.1/bin/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/support/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/:~/Downloads/RESEARCH/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin:~/Downloads/RESEARCH/build-wrapper-linux-x86:/home/a967a038/.sdkman/candidates/gradle/current/bin:/home/a967a038/.cargo/bin:/usr/system/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin/X11:/usr/X11R6/bin:/sbin:/usr/sbin:/usr/local/sbin:/tools/matlab/bin>
+Tue Jul 12 12:44:58 2022: envp[34]: <SESSION_MANAGER=local/burdock.ittc.ku.edu:@/tmp/.ICE-unix/2229232,unix/burdock.ittc.ku.edu:/tmp/.ICE-unix/2229232>
+Tue Jul 12 12:44:58 2022: envp[35]: <SDKMAN_CANDIDATES_DIR=/home/a967a038/.sdkman/candidates>
+Tue Jul 12 12:44:58 2022: envp[36]: <GDM_LANG=en_US>
+Tue Jul 12 12:44:58 2022: envp[37]: <INVOCATION_ID=30383603d0214532aac85ee4e2afd5b4>
+Tue Jul 12 12:44:58 2022: envp[38]: <XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session3>
+Tue Jul 12 12:44:58 2022: envp[39]: <XDG_MENU_PREFIX=gnome->
+Tue Jul 12 12:44:58 2022: envp[40]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/042ea370_28b4_4c9a_8aee_872ad7d6f722>
+Tue Jul 12 12:44:58 2022: envp[41]: <XDG_RUNTIME_DIR=/run/user/100576833>
+Tue Jul 12 12:44:58 2022: envp[42]: <DISPLAY=:0>
+Tue Jul 12 12:44:58 2022: envp[43]: <DOMAINNAME=>
+Tue Jul 12 12:44:58 2022: envp[44]: <LANG=en_US.UTF-8>
+Tue Jul 12 12:44:58 2022: envp[45]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Tue Jul 12 12:44:58 2022: envp[46]: <XMODIFIERS=@im=ibus>
+Tue Jul 12 12:44:58 2022: envp[47]: <XDG_SESSION_DESKTOP=ubuntu>
+Tue Jul 12 12:44:58 2022: envp[48]: <XAUTHORITY=/home/a967a038/.Xauthority>
+Tue Jul 12 12:44:58 2022: envp[49]: <GNOME_TERMINAL_SERVICE=:1.150>
+Tue Jul 12 12:44:58 2022: envp[50]: <SDKMAN_DIR=/home/a967a038/.sdkman>
+Tue Jul 12 12:44:58 2022: envp[51]: <SDKMAN_PLATFORM=linuxx64>
+Tue Jul 12 12:44:58 2022: envp[52]: <SSH_AUTH_SOCK=/tmp/ssh-yU2igr10WOt3/agent.2229105>
+Tue Jul 12 12:44:58 2022: envp[53]: <XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/a967a038>
+Tue Jul 12 12:44:58 2022: envp[54]: <SHELL=/bin/bash>
+Tue Jul 12 12:44:58 2022: envp[55]: <HOST=burdock.ittc.ku.edu>
+Tue Jul 12 12:44:58 2022: envp[56]: <QT_ACCESSIBILITY=1>
+Tue Jul 12 12:44:58 2022: envp[57]: <GDMSESSION=ubuntu>
+Tue Jul 12 12:44:58 2022: envp[58]: <GPG_AGENT_INFO=/run/user/100576833/gnupg/S.gpg-agent:0:1>
+Tue Jul 12 12:44:58 2022: envp[59]: <QT_IM_MODULE=ibus>
+Tue Jul 12 12:44:58 2022: envp[60]: <PWD=/home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:58 2022: envp[61]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Tue Jul 12 12:44:58 2022: envp[62]: <PRINTER=duplex>
+Tue Jul 12 12:44:58 2022: envp[63]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/100576833/bus,guid=16e6e1e499b6e468bc6fb99e62cd9021>
+Tue Jul 12 12:44:58 2022: envp[64]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Tue Jul 12 12:44:58 2022: envp[65]: <MANPATH=/usr/man:/usr/share/man:/usr/local/man:/usr/man/preformat:/usr/system/man:/usr/X11R6/man>
+Tue Jul 12 12:44:58 2022: envp[66]: <VTE_VERSION=6003>
+Tue Jul 12 12:44:58 2022: envp[67]: <LD_PRELOAD=>
+Tue Jul 12 12:44:58 2022: process created with pid: 2241932
+Tue Jul 12 12:44:58 2022: parent pid: 2241931
+Tue Jul 12 12:44:58 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:58 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/collect2>
+Tue Jul 12 12:44:58 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/collect2>
+Tue Jul 12 12:44:58 2022: argv[1]: <-plugin>
+Tue Jul 12 12:44:58 2022: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so>
+Tue Jul 12 12:44:58 2022: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper>
+Tue Jul 12 12:44:58 2022: argv[4]: <-plugin-opt=-fresolution=/tmp/ccC2wfHw.res>
+Tue Jul 12 12:44:58 2022: argv[5]: <-plugin-opt=-pass-through=-lgcc>
+Tue Jul 12 12:44:58 2022: argv[6]: <-plugin-opt=-pass-through=-lgcc_s>
+Tue Jul 12 12:44:58 2022: argv[7]: <-plugin-opt=-pass-through=-lpthread>
+Tue Jul 12 12:44:58 2022: argv[8]: <-plugin-opt=-pass-through=-lc>
+Tue Jul 12 12:44:58 2022: argv[9]: <-plugin-opt=-pass-through=-lgcc>
+Tue Jul 12 12:44:58 2022: argv[10]: <-plugin-opt=-pass-through=-lgcc_s>
+Tue Jul 12 12:44:58 2022: argv[11]: <--build-id>
+Tue Jul 12 12:44:58 2022: argv[12]: <--eh-frame-hdr>
+Tue Jul 12 12:44:58 2022: argv[13]: <-m>
+Tue Jul 12 12:44:58 2022: argv[14]: <elf_x86_64>
+Tue Jul 12 12:44:58 2022: argv[15]: <--hash-style=gnu>
+Tue Jul 12 12:44:58 2022: argv[16]: <--as-needed>
+Tue Jul 12 12:44:58 2022: argv[17]: <-dynamic-linker>
+Tue Jul 12 12:44:58 2022: argv[18]: </lib64/ld-linux-x86-64.so.2>
+Tue Jul 12 12:44:58 2022: argv[19]: <-pie>
+Tue Jul 12 12:44:58 2022: argv[20]: <-z>
+Tue Jul 12 12:44:58 2022: argv[21]: <now>
+Tue Jul 12 12:44:58 2022: argv[22]: <-z>
+Tue Jul 12 12:44:58 2022: argv[23]: <relro>
+Tue Jul 12 12:44:58 2022: argv[24]: <-o>
+Tue Jul 12 12:44:58 2022: argv[25]: <mcf_s>
+Tue Jul 12 12:44:58 2022: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o>
+Tue Jul 12 12:44:58 2022: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o>
+Tue Jul 12 12:44:58 2022: argv[28]: </usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o>
+Tue Jul 12 12:44:58 2022: argv[29]: </usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o>
+Tue Jul 12 12:44:58 2022: argv[30]: <-L/usr/lib/gcc/x86_64-linux-gnu/9>
+Tue Jul 12 12:44:58 2022: argv[31]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu>
+Tue Jul 12 12:44:58 2022: argv[32]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib>
+Tue Jul 12 12:44:58 2022: argv[33]: <-L/lib/x86_64-linux-gnu>
+Tue Jul 12 12:44:58 2022: argv[34]: <-L/lib/../lib>
+Tue Jul 12 12:44:58 2022: argv[35]: <-L/usr/lib/x86_64-linux-gnu>
+Tue Jul 12 12:44:58 2022: argv[36]: <-L/usr/lib/../lib>
+Tue Jul 12 12:44:58 2022: argv[37]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..>
+Tue Jul 12 12:44:58 2022: argv[38]: <mcf.o>
+Tue Jul 12 12:44:58 2022: argv[39]: <mcfutil.o>
+Tue Jul 12 12:44:58 2022: argv[40]: <readmin.o>
+Tue Jul 12 12:44:58 2022: argv[41]: <implicit.o>
+Tue Jul 12 12:44:58 2022: argv[42]: <pstart.o>
+Tue Jul 12 12:44:58 2022: argv[43]: <output.o>
+Tue Jul 12 12:44:58 2022: argv[44]: <treeup.o>
+Tue Jul 12 12:44:58 2022: argv[45]: <pbla.o>
+Tue Jul 12 12:44:58 2022: argv[46]: <pflowup.o>
+Tue Jul 12 12:44:58 2022: argv[47]: <psimplex.o>
+Tue Jul 12 12:44:58 2022: argv[48]: <pbeampp.o>
+Tue Jul 12 12:44:58 2022: argv[49]: <spec_qsort/spec_qsort.o>
+Tue Jul 12 12:44:58 2022: argv[50]: <-lm>
+Tue Jul 12 12:44:58 2022: argv[51]: <-lgomp>
+Tue Jul 12 12:44:58 2022: argv[52]: <-lgcc>
+Tue Jul 12 12:44:58 2022: argv[53]: <--push-state>
+Tue Jul 12 12:44:58 2022: argv[54]: <--as-needed>
+Tue Jul 12 12:44:58 2022: argv[55]: <-lgcc_s>
+Tue Jul 12 12:44:58 2022: argv[56]: <--pop-state>
+Tue Jul 12 12:44:58 2022: argv[57]: <-lpthread>
+Tue Jul 12 12:44:58 2022: argv[58]: <-lc>
+Tue Jul 12 12:44:58 2022: argv[59]: <-lgcc>
+Tue Jul 12 12:44:58 2022: argv[60]: <--push-state>
+Tue Jul 12 12:44:58 2022: argv[61]: <--as-needed>
+Tue Jul 12 12:44:58 2022: argv[62]: <-lgcc_s>
+Tue Jul 12 12:44:58 2022: argv[63]: <--pop-state>
+Tue Jul 12 12:44:58 2022: argv[64]: </usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o>
+Tue Jul 12 12:44:58 2022: argv[65]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o>
+Tue Jul 12 12:44:58 2022: argv[66]: </usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o>
+Tue Jul 12 12:44:58 2022: skipping process with pid: 2241932
+Tue Jul 12 12:44:58 2022: process created with pid: 2241933
+Tue Jul 12 12:44:58 2022: parent pid: 2241932
+Tue Jul 12 12:44:58 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/New/3Ree/605mcf>
+Tue Jul 12 12:44:58 2022: executable: </usr/bin/x86_64-linux-gnu-ld.bfd>
+Tue Jul 12 12:44:58 2022: argv[0]: </bin/ld>
+Tue Jul 12 12:44:58 2022: argv[1]: <-plugin>
+Tue Jul 12 12:44:58 2022: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so>
+Tue Jul 12 12:44:58 2022: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper>
+Tue Jul 12 12:44:58 2022: argv[4]: <-plugin-opt=-fresolution=/tmp/ccC2wfHw.res>
+Tue Jul 12 12:44:58 2022: argv[5]: <-plugin-opt=-pass-through=-lgcc>
+Tue Jul 12 12:44:58 2022: argv[6]: <-plugin-opt=-pass-through=-lgcc_s>
+Tue Jul 12 12:44:58 2022: argv[7]: <-plugin-opt=-pass-through=-lpthread>
+Tue Jul 12 12:44:58 2022: argv[8]: <-plugin-opt=-pass-through=-lc>
+Tue Jul 12 12:44:58 2022: argv[9]: <-plugin-opt=-pass-through=-lgcc>
+Tue Jul 12 12:44:58 2022: argv[10]: <-plugin-opt=-pass-through=-lgcc_s>
+Tue Jul 12 12:44:58 2022: argv[11]: <--build-id>
+Tue Jul 12 12:44:58 2022: argv[12]: <--eh-frame-hdr>
+Tue Jul 12 12:44:58 2022: argv[13]: <-m>
+Tue Jul 12 12:44:58 2022: argv[14]: <elf_x86_64>
+Tue Jul 12 12:44:58 2022: argv[15]: <--hash-style=gnu>
+Tue Jul 12 12:44:58 2022: argv[16]: <--as-needed>
+Tue Jul 12 12:44:58 2022: argv[17]: <-dynamic-linker>
+Tue Jul 12 12:44:58 2022: argv[18]: </lib64/ld-linux-x86-64.so.2>
+Tue Jul 12 12:44:58 2022: argv[19]: <-pie>
+Tue Jul 12 12:44:58 2022: argv[20]: <-z>
+Tue Jul 12 12:44:58 2022: argv[21]: <now>
+Tue Jul 12 12:44:58 2022: argv[22]: <-z>
+Tue Jul 12 12:44:58 2022: argv[23]: <relro>
+Tue Jul 12 12:44:58 2022: argv[24]: <-o>
+Tue Jul 12 12:44:58 2022: argv[25]: <mcf_s>
+Tue Jul 12 12:44:58 2022: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o>
+Tue Jul 12 12:44:58 2022: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o>
+Tue Jul 12 12:44:58 2022: argv[28]: </usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o>
+Tue Jul 12 12:44:58 2022: argv[29]: </usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o>
+Tue Jul 12 12:44:58 2022: argv[30]: <-L/usr/lib/gcc/x86_64-linux-gnu/9>
+Tue Jul 12 12:44:58 2022: argv[31]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu>
+Tue Jul 12 12:44:58 2022: argv[32]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib>
+Tue Jul 12 12:44:58 2022: argv[33]: <-L/lib/x86_64-linux-gnu>
+Tue Jul 12 12:44:58 2022: argv[34]: <-L/lib/../lib>
+Tue Jul 12 12:44:58 2022: argv[35]: <-L/usr/lib/x86_64-linux-gnu>
+Tue Jul 12 12:44:58 2022: argv[36]: <-L/usr/lib/../lib>
+Tue Jul 12 12:44:58 2022: argv[37]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..>
+Tue Jul 12 12:44:58 2022: argv[38]: <mcf.o>
+Tue Jul 12 12:44:58 2022: argv[39]: <mcfutil.o>
+Tue Jul 12 12:44:58 2022: argv[40]: <readmin.o>
+Tue Jul 12 12:44:58 2022: argv[41]: <implicit.o>
+Tue Jul 12 12:44:58 2022: argv[42]: <pstart.o>
+Tue Jul 12 12:44:58 2022: argv[43]: <output.o>
+Tue Jul 12 12:44:58 2022: argv[44]: <treeup.o>
+Tue Jul 12 12:44:58 2022: argv[45]: <pbla.o>
+Tue Jul 12 12:44:58 2022: argv[46]: <pflowup.o>
+Tue Jul 12 12:44:58 2022: argv[47]: <psimplex.o>
+Tue Jul 12 12:44:58 2022: argv[48]: <pbeampp.o>
+Tue Jul 12 12:44:58 2022: argv[49]: <spec_qsort/spec_qsort.o>
+Tue Jul 12 12:44:58 2022: argv[50]: <-lm>
+Tue Jul 12 12:44:58 2022: argv[51]: <-lgomp>
+Tue Jul 12 12:44:58 2022: argv[52]: <-lgcc>
+Tue Jul 12 12:44:58 2022: argv[53]: <--push-state>
+Tue Jul 12 12:44:58 2022: argv[54]: <--as-needed>
+Tue Jul 12 12:44:58 2022: argv[55]: <-lgcc_s>
+Tue Jul 12 12:44:58 2022: argv[56]: <--pop-state>
+Tue Jul 12 12:44:58 2022: argv[57]: <-lpthread>
+Tue Jul 12 12:44:58 2022: argv[58]: <-lc>
+Tue Jul 12 12:44:58 2022: argv[59]: <-lgcc>
+Tue Jul 12 12:44:58 2022: argv[60]: <--push-state>
+Tue Jul 12 12:44:58 2022: argv[61]: <--as-needed>
+Tue Jul 12 12:44:58 2022: argv[62]: <-lgcc_s>
+Tue Jul 12 12:44:58 2022: argv[63]: <--pop-state>
+Tue Jul 12 12:44:58 2022: argv[64]: </usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o>
+Tue Jul 12 12:44:58 2022: argv[65]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o>
+Tue Jul 12 12:44:58 2022: argv[66]: </usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o>
+Tue Jul 12 12:44:58 2022: skipping process with pid: 2241933
+Tue Jul 12 12:44:58 2022: finalizing json file
+Tue Jul 12 12:44:58 2022: returned with code: 0
